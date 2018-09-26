@@ -1,6 +1,5 @@
 
 <div class="row">
-  
   {% for button in site.data.buttons %}
   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
     <p><a href="#" class="button button-{{ button.class }}">Button</a></p>
@@ -12,163 +11,47 @@
     </div>
   </div>
   {% endfor %}
-  
-  
-  
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-blue">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Normal<br />
-        <strong>Class</strong>: button button-blue
-      </p>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-black">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Normal Black<br />
-        <strong>Class</strong>: button button-black
-      </p>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-white">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Normal White<br />
-        <strong>Class</strong>: button button-white
-      </p>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-gold">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Normal Gold<br />
-        <strong>Class</strong>: button button-gold
-      </p>
-    </div>
-  </div>
 </div>
-
 
 <div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-blue button-small">Button</a></p>
+  {% for button in site.data.buttons %}
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    <p><a href="#" class="button button-small button-{{ button.class }}">Button</a></p>
     <div class="text-minify">
       <p>
-        <strong>Type</strong>: Small<br />
-        <strong>Class</strong>: button button-blue button-small
+        <strong>Type</strong>: Small {{ button.color }}<br />
+        <strong>Class</strong>: button button-small button-{{ button.class }}
       </p>
     </div>
   </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-black button-small">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Small Black<br />
-        <strong>Class</strong>: button button-black button-small
-      </p>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-white button-small">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Small White<br />
-        <strong>Class</strong>: button button-white button-small
-      </p>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-gold button-small">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Small Gold<br />
-        <strong>Class</strong>: button button-gold button-small
-      </p>
-    </div>
-  </div>
+  {% endfor %}
 </div>
-
 
 <div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-blue button-large">Button</a></p>
+  {% for button in site.data.buttons %}
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    <p><a href="#" class="button button-large button-{{ button.class }}">Button</a></p>
     <div class="text-minify">
       <p>
-        <strong>Type</strong>: Large<br />
-        <strong>Class</strong>: button button-blue button-large
+        <strong>Type</strong>: Large {{ button.color }}<br />
+        <strong>Class</strong>: button button-large button-{{ button.class }}
       </p>
     </div>
   </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-black button-large">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: large Black<br />
-        <strong>Class</strong>: button button-blac button-large
-      </p>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-white button-large">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Large White<br />
-        <strong>Class</strong>: button button-white button-large
-      </p>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-gold button-large">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Large Gold<br />
-        <strong>Class</strong>: button button-gold button-large
-      </p>
-    </div>
-  </div>
+  {% endfor %}
 </div>
-
 
 <div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-blue button-full">Button</a></p>
+  {% for button in site.data.buttons %}
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    <p><a href="#" class="button button-full button-{{ button.class }}">Button</a></p>
     <div class="text-minify">
       <p>
-        <strong>Type</strong>: Full<br />
-        <strong>Class</strong>: button button-blue button-full
+        <strong>Type</strong>: Full {{ button.color }}<br />
+        <strong>Class</strong>: button button-full button-{{ button.class }}
       </p>
     </div>
   </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-black button-full">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Full Black<br />
-        <strong>Class</strong>: button button-black button-full
-      </p>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-white button-full">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Full White<br />
-        <strong>Class</strong>: button button-white button-full
-      </p>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-bottom">
-    <p><a href="#" class="button button-gold button-full">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Full Gold<br />
-        <strong>Class</strong>: button button-gold button-full
-      </p>
-    </div>
-  </div>
+  {% endfor %}
 </div>
+  
