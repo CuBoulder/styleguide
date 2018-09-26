@@ -750,18 +750,18 @@ hr { margin: 0 0 20px 0; padding: 0; border: none; height: 1px; background: rgba
 
 .layout-responsive .col { -ms-flex-preferred-size: 0; flex-basis: 0; -ms-flex-positive: 1; flex-grow: 1; max-width: 100%; }
 .layout-responsive .col-auto { -ms-flex: 0 0 auto; flex: 0 0 auto; width: auto; max-width: none; }
-.layout-responsive .col-1 { -ms-flex: 0 0 8.333333%; flex: 0 0 8.333333%; max-width: 8.333333%; }
-.layout-responsive .col-2 { -ms-flex: 0 0 16.666667%; flex: 0 0 16.666667%; max-width: 16.666667%; }
-.layout-responsive .col-3 { -ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%; }
-.layout-responsive .col-4 { -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 33.333333%; }
-.layout-responsive .col-5 { -ms-flex: 0 0 41.666667%; flex: 0 0 41.666667%; max-width: 41.666667%; }
-.layout-responsive .col-6 { -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; }
-.layout-responsive .col-7 { -ms-flex: 0 0 58.333333%; flex: 0 0 58.333333%; max-width: 58.333333%; }
-.layout-responsive .col-8 { -ms-flex: 0 0 66.666667%; flex: 0 0 66.666667%; max-width: 66.666667%; }
-.layout-responsive .col-9 { -ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%; }
-.layout-responsive .col-10 { -ms-flex: 0 0 83.333333%; flex: 0 0 83.333333%; max-width: 83.333333%; }
-.layout-responsive .col-11 { -ms-flex: 0 0 91.666667%; flex: 0 0 91.666667%; max-width: 91.666667%; }
-.layout-responsive .col-12 { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; }
+.layout-responsive .col-1, .layout-responsive .col-xs-1 { -ms-flex: 0 0 8.333333%; flex: 0 0 8.333333%; max-width: 8.333333%; }
+.layout-responsive .col-2, .layout-responsive .col-xs-2 { -ms-flex: 0 0 16.666667%; flex: 0 0 16.666667%; max-width: 16.666667%; }
+.layout-responsive .col-3, .layout-responsive .col-xs-3 { -ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%; }
+.layout-responsive .col-4, .layout-responsive .col-xs-4 { -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 33.333333%; }
+.layout-responsive .col-5, .layout-responsive .col-xs-5 { -ms-flex: 0 0 41.666667%; flex: 0 0 41.666667%; max-width: 41.666667%; }
+.layout-responsive .col-6, .layout-responsive .col-xs-6 { -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; }
+.layout-responsive .col-7, .layout-responsive .col-xs-7 { -ms-flex: 0 0 58.333333%; flex: 0 0 58.333333%; max-width: 58.333333%; }
+.layout-responsive .col-8, .layout-responsive .col-xs-8 { -ms-flex: 0 0 66.666667%; flex: 0 0 66.666667%; max-width: 66.666667%; }
+.layout-responsive .col-9, .layout-responsive .col-xs-9 { -ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%; }
+.layout-responsive .col-10, .layout-responsive .col-xs-10 { -ms-flex: 0 0 83.333333%; flex: 0 0 83.333333%; max-width: 83.333333%; }
+.layout-responsive .col-11, .layout-responsive .col-xs-11 { -ms-flex: 0 0 91.666667%; flex: 0 0 91.666667%; max-width: 91.666667%; }
+.layout-responsive .col-12, .layout-responsive .col-xs-12 { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; }
 .layout-responsive .order-first { -ms-flex-order: -1; order: -1; }
 .layout-responsive .order-last { -ms-flex-order: 13; order: 13; }
 .layout-responsive .order-0 { -ms-flex-order: 0; order: 0; }
