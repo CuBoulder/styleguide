@@ -1,0 +1,18 @@
+- color: Blue
+  class: blue
+  
+- color: Gold
+  class: gold
+
+- color: Black
+  class: black
+  
+- color: Dark Gray
+  class: gray-dark
+  
+- color: Light Gray
+  class: gray-light
+  
+- color: White
+  class: white
+  
