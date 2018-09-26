@@ -1,43 +1,9 @@
 <div class="row">
 {% for color in site.data.colors %}
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 padding {{ color.class }}">
-    <strong>{{ color.color }}</strong>
+  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 padding-bottom">
+    <div class="padding-large {{ color.class }}">
+      <strong>{{ color.color }}</strong>
+    </div>
   </div>
 {% endfor %}
-</div>
-
-
-
-<div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 padding background-black">
-    Black
-  </div>
-  
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 padding background-gray-dark">
-    Dark Gray
-  </div>
-  
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 padding background-gray-light">
-    Light Gray
-  </div>
-  
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 padding background-gold">
-    Gold
-  </div>
-  
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 padding background-blue-light">
-    Light Blue
-  </div>
-  
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 padding background-blue-medium">
-    Medium Blue
-  </div>
-  
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 padding background-green-light">
-    Light Green
-  </div>
-  
-  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 padding background-gold-light">
-    Light Gold
-  </div>
 </div>
