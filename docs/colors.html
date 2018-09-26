@@ -2,5 +2,21 @@
 layout: default
 title: Colors
 ---
+<p>The styleguide provides a variety of colors to be used for backgrounds of elements on your site or application.</p>
+<h2>Background Colors</h2>
+<div class="row">
+{% for color in site.data.colors %}
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="{{ color.class }} text-minify padding margin-bottom"><strong>{{ color.color }}</strong></div>
+  </div>
+{% endfor %}
+</div>
 
-{% include colors.html %}
+<p>When applying the background classes, an accessible text color is also set. However, not all background colors work well with links. If a link is not readable on a background color, the use of buttons is recommended.</p>
+
+<h3>Usage</h3>
+<div class="content border padding">
+{% for color in site.data.colors %}
+  <p><code>&lt;div class="padding {{ color.class }}"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/div&gt;</code></p>
+{% endfor %}
+</div>
