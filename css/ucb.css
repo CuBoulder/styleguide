@@ -1219,6 +1219,8 @@ strong { font-weight: 600; }
 
 em { font-style: italic; }
 
+code { font-family: monospace; font-size: 85%; }
+
 /** Color styles */
 .background-white, .exbd-block.exbd-style-white { background-color: #fff; color: #202020; }
 .background-white a:link, .background-white a:visited, .exbd-block.exbd-style-white a:link, .exbd-block.exbd-style-white a:visited { color: #0277BD; }
