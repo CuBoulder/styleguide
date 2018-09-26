@@ -1435,6 +1435,30 @@ em { font-style: italic; }
 
 .padding-large { padding: 40px; }
 
+.padding-top, .padding-medium-top { padding-top: 20px; }
+
+.padding-small-top { padding-top: 10px; }
+
+.padding-large-top { padding-top: 40px; }
+
+.padding-bottom, .padding-medium-bottom { padding-bottom: 20px; }
+
+.padding-small-bottom { padding-bottom: 10px; }
+
+.padding-large-bottom { padding-bottom: 40px; }
+
+.padding-left, .padding-medium-left { padding-left: 20px; }
+
+.padding-small-left { padding-left: 10px; }
+
+.padding-large-left { padding-left: 40px; }
+
+.padding-right, .padding-medium-right { padding-right: 20px; }
+
+.padding-small-right { padding-right: 10px; }
+
+.padding-large-right { padding-right: 40px; }
+
 .border { border: 1px solid rgba(128, 128, 128, 0.333); }
 
 .border-top { border-top: 1px solid rgba(128, 128, 128, 0.333); }
