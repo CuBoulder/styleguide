@@ -12,6 +12,9 @@
   
 - color: Light Blue
   class: background-blue-light
+
+- color: Light Green
+  class: background-green-light
   
 - color: Light Gold
   class: background-gold-light
@@ -22,5 +25,4 @@
 - color: Brick
   class: background-brick
   
-- color: Amber
-  class: background-amber
+
