@@ -15,8 +15,11 @@ title: Colors
 <p>When applying the background classes, an accessible text color is also set. However, not all background colors work well with links. If a link is not readable on a background color, the use of buttons is recommended.</p>
 
 <h3>Usage</h3>
-<div class="content border padding">
+
 {% for color in site.data.colors %}
+<h4>{{ color.color }}</h4>
+<div class="content border padding margin-bottom">
   <p><code>&lt;div class="padding {{ color.class }}"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/div&gt;</code></p>
-{% endfor %}
 </div>
+{% endfor %}
+
