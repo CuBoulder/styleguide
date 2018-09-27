@@ -251,6 +251,8 @@ fieldset legend { font-weight: bold; font-size: 120%; padding: 0 10px; }
 
 form label { font-weight: bold; display: block; }
 
+form input[type=checkbox] + label, form input[type=radio] + label { display: inline-block; }
+
 /** Image styles */
 img { display: block; max-width: 100%; height: auto; min-width: 50px; }
 
@@ -347,9 +349,9 @@ ul { list-style: disc; }
 
 .node ul.inline, .node ol.inline, ul.inline, ol.inline { padding-left: 0; }
 
-ul.list-style-nobullet { list-style: none; list-style-image: none; padding-left: 0; }
+ul.list-style-nobullet, ul.unstyled { list-style: none; list-style-image: none; padding-left: 0; }
 
-ul.list-style-nobullet > li { list-style: none; list-style-image: none; }
+ul.list-style-nobullet > li, ul.unstyled li { list-style: none; list-style-image: none; }
 
 ul.list-style-underline > li { list-style: none; }
 
