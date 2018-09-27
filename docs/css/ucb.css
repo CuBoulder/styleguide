@@ -141,9 +141,9 @@ a.button.button-full, .button.button-full { display: block; text-align: center; 
 .button.button-gold:hover, .button.button-gold:focus, .buttons-color-gold a:hover, .buttons-color-gold a:focus, .buttons-color-gold a.button:hover, .buttons-color-gold a.button:focus { background-color: #cbb271; background-color: #a6a6a6; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
 .button.button-gold:active, .buttons-color-gold a:active, .buttons-color-gold a.button:active { -webkit-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.35); -moz-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.35); box-shadow: 0 3px 15px rgba(0, 0, 0, 0.35); }
 
-.button-large { font-size: 125%; padding: 10px; }
+.button.button-large { font-size: 125%; padding: 8px 12px; }
 
-.button-small { font-size: 80%; padding: 1px 6px; }
+.button.button-small { font-size: 80%; padding: 1px 6px; }
 
 .buttongroup { display: block; position: relative; overflow: hidden; }
 .buttongroup a.button { display: block; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; text-align: center; font-weight: 500; }
@@ -238,7 +238,7 @@ textarea { display: block; width: 100%; }
 
 input.form-text, input[type=text], input[type=email], input[type=tel] { max-width: 100%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box; /* Firefox, other Gecko */ box-sizing: border-box; }
 
-input.form-text:focus, textarea.form-textarea:focus, input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus { background-color: rgba(128, 128, 128, 0.2); outline: #0277BD solid 2px; }
+input.form-text:focus, textarea.form-textarea:focus, textarea, input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus { background-color: rgba(128, 128, 128, 0.2); outline: #0277BD solid 2px; }
 
 input[type=submit], form button { color: #222; background: #EEEEEE; font-size: 85%; border: none; padding: 5px 10px; font-weight: bold; font-family: "Neue Helvetica W01", "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; transition: background-color 0.5s ease; transition: -webkit-box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease; transition: -moz-box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease; transition: box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); border: 1px solid #ddd; }
 
