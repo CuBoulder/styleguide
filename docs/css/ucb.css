@@ -392,6 +392,8 @@ ol.list-style-roman-upper, ol.list-style-roman-upper > li { list-style: upper-ro
 
 ol.list-style-roman-lower, ol.list-style-roman-lower > li { list-style: lower-roman; }
 
+ul.list-menu a { display: block; }
+
 /** Tab styles */
 .tabs { font-size: 70%; padding: 0; }
 .tabs ul.primary { border: 0; padding: 0; margin: 10px 0; text-transform: uppercase; font-weight: 600; display: block; border: 2px solid #0277BD; background-color: #0277BD; overflow: auto; }
@@ -701,11 +703,11 @@ hr { margin: 0 0 20px 0; padding: 0; border: none; height: 1px; background: rgba
 @media (min-width: 768px) { .container.container-small { max-width: 540px; } }
 @media (min-width: 992px) { .container { max-width: 960px; }
   .container.container-small { max-width: 720px; } }
-@media (min-width: 1200px) { .container { max-width: 1140px; }
+@media (min-width: 1200px) { .container { max-width: 1160px; }
   .container.container-small { max-width: 960; } }
-@media (min-width: 1500px) { .container { max-width: 1440px; }
+@media (min-width: 1500px) { .container { max-width: 1460px; }
   .container.container-small { max-width: 960; } }
-.layout-fixed .container { width: 1140px; max-width: none; }
+.layout-fixed .container { width: 1160px; max-width: none; }
 
 .container-fluid { width: 100%; padding-right: 20px; padding-left: 20px; margin-right: auto; margin-left: auto; }
 
@@ -1574,6 +1576,7 @@ a:visited { color: #0277BD; }
 a:hover { color: #B71C1C; text-decoration-color: rgba(183, 28, 28, 0.65); -webkit-text-decoration-color: rgba(183, 28, 28, 0.65); }
 a:active, a:focus { color: #B71C1C; text-decoration-color: rgba(183, 28, 28, 0.65); -webkit-text-decoration-color: rgba(183, 28, 28, 0.65); }
 
+/** Express/Drupal specific styles */
 .main-content-wrapper { padding: 20px 0 !important; }
 
 /*# sourceMappingURL=ucb.css.map */
