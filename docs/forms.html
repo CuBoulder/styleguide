@@ -2,15 +2,25 @@
 layout: default
 title: Form Elements
 ---
+<h2>Text Input</h2>
 
 <form>
   <p>
-    <input type="text" />
+  <label for="input-type-text">Text input label</label>
+  <input id="input-type-text" name="input-type-text" type="text">
   </p>
   <p>
-    <textarea></textarea>
+  <label for="input-type-textarea">Text area label</label>
+  <textarea id="input-type-textarea" name="input-type-textarea"></textarea>
   </p>
-  <p>
-    <input type="submit" value="Submit" />
-  </p>
+</form>
+
+<form>
+  <label for="options">Dropdown label</label>
+  <select name="options" id="options">
+    <option value="">- Select -</option>
+    <option value="value1">Option A</option>
+    <option value="value2">Option B</option>
+    <option value="value3">Option C</option>
+  </select>
 </form>
