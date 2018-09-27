@@ -143,7 +143,7 @@ a.button.button-full, .button.button-full { display: block; text-align: center; 
 
 .button-large { font-size: 125%; padding: 10px; }
 
-.button-small { font-size: 90%; padding: 1px 6px; }
+.button-small { font-size: 80%; padding: 1px 6px; }
 
 .buttongroup { display: block; position: relative; overflow: hidden; }
 .buttongroup a.button { display: block; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; text-align: center; font-weight: 500; }
@@ -389,6 +389,7 @@ ol.list-style-roman-upper, ol.list-style-roman-upper > li { list-style: upper-ro
 ol.list-style-roman-lower, ol.list-style-roman-lower > li { list-style: lower-roman; }
 
 ul.list-menu a { display: block; }
+ul.list-menu a.active { filter: grayscale(100%); font-weight: bold; }
 
 /** Tab styles */
 .tabs { font-size: 70%; padding: 0; }
