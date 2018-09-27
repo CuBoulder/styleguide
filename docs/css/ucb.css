@@ -141,7 +141,7 @@ a.button.button-full, .button.button-full { display: block; text-align: center; 
 .button.button-gold:hover, .button.button-gold:focus, .buttons-color-gold a:hover, .buttons-color-gold a:focus, .buttons-color-gold a.button:hover, .buttons-color-gold a.button:focus { background-color: #cbb271; background-color: #a6a6a6; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
 .button.button-gold:active, .buttons-color-gold a:active, .buttons-color-gold a.button:active { -webkit-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.35); -moz-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.35); box-shadow: 0 3px 15px rgba(0, 0, 0, 0.35); }
 
-.button.button-large { font-size: 125%; padding: 8px 12px; }
+.button.button-large { font-size: 125%; }
 
 .button.button-small { font-size: 80%; padding: 1px 6px; }
 
