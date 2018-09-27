@@ -24,3 +24,12 @@ section: colors
 </div>
 {% endfor %}
 
+<h2>Shades of Gray</h2>
+<p>There are also some utility classes for shades of gray.
+
+{% if forloop.index < 5 %}
+  <div class="padding margin-bottom content background-gray-{{ forloop.index }}00">
+    <p><code>&lt;div class="padding background-gray-{{ forloop.index }}00"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/div&gt;</code></p>
+  </div>
+{% endif %}
+
