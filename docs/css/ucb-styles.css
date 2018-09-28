@@ -1077,6 +1077,10 @@ code { font-family: monospace; font-size: 85%; }
 
 .padding-none { padding: 0px !important; }
 
+.padding-none-vertical { padding-top: 0 !important; padding-bottom: 0 !important; }
+
+.padding-none-horizontal { padding-left: 0 !important; padding-right: 0 !important; }
+
 .padding, .padding-medium { padding: 20px; }
 
 .padding-small { padding: 10px; }
