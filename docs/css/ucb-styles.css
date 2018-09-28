@@ -429,7 +429,7 @@ ul.primary li a.revisions:before { content: "\f0c5"; }
 @media (min-width: 768px) and (max-width: 959px) { .visible-sm { display: block !important; } }
 @media (min-width: 960px) and (max-width: 1199px) { .visible-md { display: block !important; } }
 @media (min-width: 1200px) { .visible-lg { display: block !important; } }
-.row { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-right: -20px; margin-left: -20px; overflow: hidden; }
+.row { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-right: -20px; margin-left: -20px; }
 
 .no-gutters { margin-right: 0; margin-left: 0; }
 
@@ -1136,6 +1136,12 @@ code { font-family: monospace; font-size: 85%; }
 .margin-left { margin-left: 20px; }
 
 .margin-right { margin-right: 20px; }
+
+.margin-none { margin: 0 !important; }
+
+.margin-none-vertical { margin-top: 0 !important; margin-bottom: 0 !important; }
+
+.margin-none-horizontal { margin-left: 0 !important; margin-right: 0 !important; }
 
 .align-left { float: left; }
 
