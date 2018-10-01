@@ -1,28 +1,37 @@
 - color: Black
   class: background-black
+  color-only-class: background-color-black
   
 - color: Dark Gray
   class: background-gray-dark
+  color-only-class: background-color-gray-dark
   
 - color: Light Gray
   class: background-gray-light
+  color-only-class: background-color-gray-light
   
 - color: Medium Blue
   class: background-blue-medium
+  color-only-class: background-color-blue-medium
   
 - color: Light Blue
   class: background-blue-light
+  color-only-class: background-color-blue-light
 
 - color: Light Green
   class: background-green-light
+  color-only-class: background-color-green-light
   
 - color: Light Gold
   class: background-gold-light
+  color-only-class: background-color-gold-light
   
 - color: Gold
   class: background-gold
+  color-only-class: background-color-gold
   
 - color: Brick
   class: background-brick
+  color-only-class: background-color-brick
   
 
