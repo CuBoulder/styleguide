@@ -34,11 +34,11 @@ section: colors
 {% endfor %}
 
 <h2>Background Color Only</h2>
-<p>If you only need to apply a background color, but not set text or link colors you can use the .background-color-COLORNAME classes.</p>
+<p>If you only need to apply a background color, but not set text or link colors within the element, you can use the .background-color-COLORNAME classes. These classes should only be used when the elements within do not display properly when text and link colors are set. Some of these colors will not meet color contrast accessibility standards.</p>
 <h3>Usage</h3>
 {% for color in site.data.colors %}
 <h4>{{ color.color }}</h4>
-<div class="content {{ color.color-only-class }} padding-large margin-bottom">
+<div class="content background-gray-light border padding margin-bottom">
   <p><code>&lt;div class="padding {{ color.color-only-class }}"&gt;&lt;/div&gt;</code></p>
 </div>
 {% endfor %}
