@@ -6,7 +6,7 @@
 - color: Dark Gray
   class: background-gray-dark
   color-only-class: background-color-gray-dark
-  hex: 424242
+  hex: '#424242'
   
 - color: Light Gray
   class: background-gray-light
