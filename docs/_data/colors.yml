@@ -2,22 +2,27 @@
   class: background-black
   color-only-class: background-color-black
   hex: '#000000'
-  
+
+- color: White
+  class: background-white
+  color-only-class: background-color-white
+  hex: '#FFFFFF'
+
 - color: Dark Gray
   class: background-gray-dark
   color-only-class: background-color-gray-dark
   hex: '#424242'
-  
+
 - color: Light Gray
   class: background-gray-light
   color-only-class: background-color-gray-light
   hex: '#EEEEEE'
-  
+
 - color: Medium Blue
   class: background-blue-medium
   color-only-class: background-color-blue-medium
   hex: '#4FC3F7'
-  
+
 - color: Light Blue
   class: background-blue-light
   color-only-class: background-color-blue-light
@@ -27,20 +32,18 @@
   class: background-green-light
   color-only-class: background-color-green-light
   hex: '#DCEDC8'
-  
+
 - color: Light Gold
   class: background-gold-light
   color-only-class: background-color-gold-light
   hex: '#f1ebd9'
-  
+
 - color: Gold
   class: background-gold
   color-only-class: background-color-gold
   hex: '#cfb87c'
-  
+
 - color: Brick
   class: background-brick
   color-only-class: background-color-brick
   hex: '#ae5a39'
-  
-
