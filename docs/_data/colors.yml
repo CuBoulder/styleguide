@@ -1,7 +1,7 @@
 - color: Black
   class: background-black
   color-only-class: background-color-black
-  hex: 000000
+  hex: '000000'
   
 - color: Dark Gray
   class: background-gray-dark
