@@ -180,7 +180,7 @@ a.button.button-full, .button.button-full { display: block; text-align: center; 
 .cu-give-button-gold:hover, .cu-give-button-gold:focus { background-color: #cbb271; background-color: #a6a6a6; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
 .cu-give-button-gold:active { -webkit-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.35); -moz-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.35); box-shadow: 0 3px 15px rgba(0, 0, 0, 0.35); }
 
-.button-ghost { display: inline-block; padding: 5px 10px; font-weight: 500; font-family: "Neue Helvetica W01", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 5px; text-decoration: none; }
+.button-ghost { display: inline-block; padding: 5px 10px; font-weight: bold; font-family: "Neue Helvetica W01", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 5px; text-decoration: none; }
 
 .button-ghost.button-ghost-blue, .buttons-color-outline-blue a, .buttons-color-outline-blue a.button { border: 1px solid #0277BD; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; color: #0277BD !important; text-decoration: none; background: rgba(255, 255, 255, 0.25); }
 .button-ghost.button-ghost-blue:hover, .button-ghost.button-ghost-blue:active, .button-ghost.button-ghost-blue:focus, .buttons-color-outline-blue a:hover, .buttons-color-outline-blue a:active, .buttons-color-outline-blue a:focus, .buttons-color-outline-blue a.button:hover, .buttons-color-outline-blue a.button:active, .buttons-color-outline-blue a.button:focus { background: #0277BD; color: #fff !important; }
@@ -232,6 +232,46 @@ form label { font-weight: bold; display: block; }
 form input[type=checkbox] + label, form input[type=radio] + label { display: inline-block; }
 
 /** Icon styles */
+.icon-color-black, .exbd-icon-color-black { color: #000; }
+
+.icon-color-black.icon-wrapper-square, .icon-color-black.icon-wrapper-rounded, .icon-color-black.icon-wrapper-circle { background-color: #000; color: #fff; }
+
+.icon-color-white, .exbd-icon-color-white { color: #fff; }
+
+.icon-color-white.icon-wrapper-square, .icon-color-white.icon-wrapper-rounded, .icon-color-white.icon-wrapper-circle { background-color: #fff; color: #111111; }
+
+.icon-color-gold, .exbd-icon-color-gold { color: #cfb87c; }
+
+.icon-color-gold.icon-wrapper-square, .icon-color-gold.icon-wrapper-rounded, .icon-color-gold.icon-wrapper-circle { background-color: #cfb87c; color: #111111; }
+
+.icon-color-blue, .exbd-icon-color-blue { color: #4FC3F7; }
+
+.icon-color-blue.icon-wrapper-square, .icon-color-blue.icon-wrapper-rounded, .icon-color-blue.icon-wrapper-circle { background-color: #4FC3F7; color: #111111; }
+
+.icon-color-red, .exbd-icon-color-red { color: #B71C1C; }
+
+.icon-color-red.icon-wrapper-square, .icon-color-red.icon-wrapper-rounded, .icon-color-red.icon-wrapper-circle { background-color: #B71C1C; color: #fff; }
+
+.icon-color-yellow, .exbd-icon-color-yellow { color: #FFD740; }
+
+.icon-color-yellow.icon-wrapper-square, .icon-color-yellow.icon-wrapper-rounded, .icon-color-yellow.icon-wrapper-circle { background-color: #FFD740; color: #111111; }
+
+.icon-color-green, .exbd-icon-color-green { color: #2E7D32; }
+
+.icon-color-green.icon-wrapper-square, .icon-color-green.icon-wrapper-rounded, .icon-color-green.icon-wrapper-circle { background-color: #2E7D32; color: #fff; }
+
+.icon-color-purple, .exbd-icon-color-purple { color: #5E35B1; }
+
+.icon-color-purple.icon-wrapper-square, .icon-color-purple.icon-wrapper-rounded, .icon-color-purple.icon-wrapper-circle { background-color: #5E35B1; color: #fff; }
+
+.icon-color-orange, .exbd-icon-color-orange { color: #FF9800; }
+
+.icon-color-orange.icon-wrapper-square, .icon-color-orange.icon-wrapper-rounded, .icon-color-orange.icon-wrapper-circle { background-color: #FF9800; color: #111111; }
+
+.icon-color-brick, .exbd-icon-color-brick { color: #ae5a39; }
+
+.icon-color-brick.icon-wrapper-square, .icon-color-brick.icon-wrapper-rounded, .icon-color-brick.icon-wrapper-circle { background-color: #ae5a39; color: #fff; }
+
 /* Icons for file extensions */
 /* Word/TXT/RTF */
 a.file-doc, a.file-docx, a.file-rtf { padding: 5px 20px 5px 0; background: transparent url(../images/icons/icon_doc.gif) no-repeat center right; }
@@ -1166,6 +1206,10 @@ code { font-family: monospace; font-size: 85%; }
 .row.equal-height > * { display: flex; }
 
 .nowrap { white-space: nowrap; }
+
+.text-capitalize { text-transform: capitalize; }
+
+.text-uppercase { text-transform: uppercase; }
 
 /** Global styles */
 html { box-sizing: border-box; }
