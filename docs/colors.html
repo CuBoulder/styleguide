@@ -3,19 +3,89 @@ layout: default
 title: Colors
 section: colors
 ---
-<p>The styleguide provides a variety of colors to be used for backgrounds of elements on your site or application.</p>
-<h2>Background Colors</h2>
+<p>While the Be Boulder visual guidelines advise adding color through photography, this styleguide provides a variety of colors to be used for backgrounds on elements of your site or application.</p>
+<h2>Brand Colors</h2>
 <div class="row">
 {% for color in site.data.colors %}
+  {% if color.type == 'brand' %}
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom"><strong>{{ color.color }}</strong><br />{{ color.hex }}</div>
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
   </div>
+  {% endif %}
 {% endfor %}
 </div>
 
+<h2>Neutral Colors</h2>
+<div class="row">
+{% for color in site.data.colors %}
+  {% if color.type == 'neutral' %}
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h2>Link/Button Colors</h2>
+<div class="row">
+{% for color in site.data.colors %}
+  {% if color.type == 'primary' %}
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h2>Secondary Colors</h2>
+<div class="row">
+{% for color in site.data.colors %}
+  {% if color.type == 'secondary' %}
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h2>Tertiary Colors</h2>
+<div class="row">
+{% for color in site.data.colors %}
+  {% if color.type == 'tertiary' %}
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h2>Application Colors</h2>
+<div class="row">
+{% for color in site.data.colors %}
+  {% if color.type == 'application' %}
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h2>Notification/Message Colors</h2>
+<div class="row">
+{% for color in site.data.colors %}
+  {% if color.type == 'notification' %}
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+
+
 <p>When applying the background classes, an accessible text color is also set. However, not all background colors work well with links. If a link is not readable on a background color, the use of buttons is recommended.</p>
 
-<h3>Usage</h3>
+<h2>Usage</h2>
 
 {% for color in site.data.colors %}
 <h4>{{ color.color }}</h4>
@@ -43,3 +113,4 @@ section: colors
 </div>
 {% endfor %}
 
+<script type="text/javascript" src="/styleguide/js/styleguide.js"></script>
