@@ -2,48 +2,100 @@
   class: background-black
   color-only-class: background-color-black
   hex: '#000000'
-
-- color: White
-  class: background-white
-  color-only-class: background-color-white
-  hex: '#FFFFFF'
-
-- color: Dark Gray
-  class: background-gray-dark
-  color-only-class: background-color-gray-dark
-  hex: '#424242'
-
-- color: Light Gray
-  class: background-gray-light
-  color-only-class: background-color-gray-light
-  hex: '#EEEEEE'
-
-- color: Medium Blue
-  class: background-blue-medium
-  color-only-class: background-color-blue-medium
-  hex: '#4FC3F7'
-
-- color: Light Blue
-  class: background-blue-light
-  color-only-class: background-color-blue-light
-  hex: '#E1F5FE'
-
-- color: Light Green
-  class: background-green-light
-  color-only-class: background-color-green-light
-  hex: '#DCEDC8'
-
-- color: Light Gold
-  class: background-gold-light
-  color-only-class: background-color-gold-light
-  hex: '#f1ebd9'
+  type: brand
 
 - color: Gold
   class: background-gold
   color-only-class: background-color-gold
   hex: '#cfb87c'
+  type: brand
+
+- color: White
+  class: background-white
+  color-only-class: background-color-white
+  hex: '#FFFFFF'
+  type: neutral
+
+- color: Light Gray
+  class: background-gray-light
+  color-only-class: background-color-gray-light
+  hex: '#EEEEEE'
+  type: neutral
+
+- color: Dark Gray
+  class: background-gray-dark
+  color-only-class: background-color-gray-dark
+  hex: '#424242'
+  type: neutral
+
+- color: Blue
+  class: background-blue
+  color-only-class: background-color-blue
+  hex: '#E1F5FE'
+  type: primary
+
+- color: Light Blue
+  class: background-blue-light
+  color-only-class: background-color-blue-light
+  hex: '#E1F5FE'
+  type: secondary
+
+- color: Light Green
+  class: background-green-light
+  color-only-class: background-color-green-light
+  hex: '#DCEDC8'
+  type: secondary
+
+- color: Light Gold
+  class: background-gold-light
+  color-only-class: background-color-gold-light
+  hex: '#f1ebd9'
+  type: secondary
+
+- color: Medium Blue
+  class: background-blue-medium
+  color-only-class: background-color-blue-medium
+  hex: '#4FC3F7'
+  type: tertiary
 
 - color: Brick
   class: background-brick
   color-only-class: background-color-brick
   hex: '#ae5a39'
+  type: tertiary
+
+- color: Red
+  class: background-red
+  color-only-class: background-color-red
+  hex: '#ae5a39'
+  type: application
+
+- color: Green
+  class: background-green
+  color-only-class: background-color-green
+  hex: '#ae5a39'
+  type: application
+
+- color: Amber
+  class: background-amber
+  color-only-class: background-color-amber
+  hex: '#ae5a39'
+  type: application
+
+- color: Light Red
+  class: background-red-light
+  color-only-class: background-color-red
+  hex: '#ae5a39'
+  type: notification
+
+- color: Light Green
+  class: background-green-light
+  color-only-class: background-color-green-light
+  hex: '#ae5a39'
+  type: notification
+
+- color: Yellow
+  class: background-yellow
+  color-only-class: background-color-yellow
+  hex: '#ae5a39'
+  type: notification
