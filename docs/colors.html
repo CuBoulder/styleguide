@@ -87,12 +87,16 @@ section: colors
 
 <h2>Usage</h2>
 
-{% for color in site.data.colors %}
-<h4>{{ color.color }}</h4>
-<div class="content {{ color.class }} padding margin-bottom {% if color.color == 'White' %}border{% endif %}">
-  <p><code>&lt;div class="padding {{ color.class }}"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/div&gt;</code></p>
+<div class="row">
+  {% for color in site.data.colors %}
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+  <h4>{{ color.color }}</h4>
+  <div class="content {{ color.class }} padding margin-bottom {% if color.color == 'White' %}border{% endif %}">
+    <p><code>&lt;div class="padding {{ color.class }}"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/div&gt;</code></p>
+  </div>
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}
 
 <h2>Shades of Gray</h2>
 <p>There are also some utility classes for shades of gray.</p>
