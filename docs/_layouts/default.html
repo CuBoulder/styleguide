@@ -16,7 +16,7 @@
     <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 
   </head>
-  <body class="layout-responsive headings-bold background-color-black">
+  <body class="headings-bold background-color-black">
     <div class="page">
       <div class="background-black brand-bar brand-bar-black">
         <div class="container">
@@ -37,7 +37,7 @@
   </label>
   <input type="checkbox" id="show-main-menu" role="button">
           <ul>
-            <li><a href="/styleguide/" {% if page.section == "introduction" %}class="active"{% endif %}> <i class="fa fa-home"></i> </a></li>
+            <li><a href="/styleguide/" {% if page.section == "introduction" %}class="active"{% endif %}> <i class="fa fa-home"></i> <span class="display-inline invisible-md invisible-lg">Home</span></a></li>
             <li><a href="/styleguide/css.html" {% if page.section == "css" %}class="active"{% endif %}>CSS</a></li>
             <li><a href="/styleguide/branding.html" {% if page.section == "branding" %}class="active"{% endif %}>Branding</a></li>
             <li><a href="/styleguide/components.html" {% if page.section == "components" %}class="active"{% endif %}>Components</a></li>
