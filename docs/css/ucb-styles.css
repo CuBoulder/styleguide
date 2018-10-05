@@ -87,7 +87,7 @@ header.ucb .site-name-wrapper { flex-grow: 1; padding-right: 40px; }
 
 /** Button styles */
 a.button, .button { background-color: #0277BD; color: #fff !important; display: inline-block; padding: 5px 10px; font-weight: bold; transition: background-color 0.5s ease; margin-bottom: 5px; text-decoration: none !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); transition: -webkit-box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease; transition: -moz-box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease; transition: box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease; }
-a.button.button-full, .button.button-full { display: block; text-align: center; }
+a.button.button-full, a.button.button-block, .button.button-full, .button.button-block { display: block; text-align: center; }
 
 .button.button-blue, .buttons-color-blue a, .buttons-color-blue a.button { background-color: #0277BD; color: #fff !important; display: inline-block; padding: 5px 10px; font-weight: bold; transition: background-color 0.5s ease; margin-bottom: 5px; text-decoration: none !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); transition: -webkit-box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease; transition: -moz-box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease; transition: box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease; background-color: #0277BD; color: #fff !important; }
 .button.button-blue:hover, .button.button-blue:focus, .buttons-color-blue a:hover, .buttons-color-blue a:focus, .buttons-color-blue a.button:hover, .buttons-color-blue a.button:focus { background-color: #026dae; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
@@ -475,22 +475,22 @@ h1, h1#page-title, h1#page-title-image-title, .page-title-section h1 { font-size
 h1 i, h1 em, h1#page-title i, h1#page-title em, h1#page-title-image-title i, h1#page-title-image-title em, .page-title-section h1 i, .page-title-section h1 em { font-style: italic; }
 
 @media screen and (min-width: 768px) { h1#page-title, h1#page-title-image-title, .page-title-section h1 { font-size: 220%; } }
-h1#page-title, h1#page-title-image-title, .page-title-section h1, h2, h3, h4 { font-weight: bold; }
-h1#page-title strong, h1#page-title b, h1#page-title-image-title strong, h1#page-title-image-title b, .page-title-section h1 strong, .page-title-section h1 b, h2 strong, h2 b, h3 strong, h3 b, h4 strong, h4 b { font-weight: bold; }
+h1, h1#page-title, h1#page-title-image-title, .page-title-section h1, h2, h3, h4 { font-weight: bold; }
+h1 strong, h1 b, h1#page-title strong, h1#page-title b, h1#page-title-image-title strong, h1#page-title-image-title b, .page-title-section h1 strong, .page-title-section h1 b, h2 strong, h2 b, h3 strong, h3 b, h4 strong, h4 b { font-weight: bold; }
 
 h5, h6 { font-weight: bold; }
 
 h2.block-title, h2.node-title { font-weight: bold; }
 
-.headings-light h1#page-title, .headings-light h1#page-title-image-title, .headings-light .page-title-section h1, .headings-light h2, .headings-light h2.block-title, .headings-light h2.node-title, .headings-light h3, .headings-light h4, .headings-light h5, .headings-light h6 { font-weight: normal; }
-.headings-light h1#page-title strong, .headings-light h1#page-title b, .headings-light h1#page-title-image-title strong, .headings-light h1#page-title-image-title b, .headings-light .page-title-section h1 strong, .headings-light .page-title-section h1 b, .headings-light h2 strong, .headings-light h2 b, .headings-light h2.block-title strong, .headings-light h2.block-title b, .headings-light h2.node-title strong, .headings-light h2.node-title b, .headings-light h3 strong, .headings-light h3 b, .headings-light h4 strong, .headings-light h4 b, .headings-light h5 strong, .headings-light h5 b, .headings-light h6 strong, .headings-light h6 b { font-weight: bold; }
+.headings-light h1, .headings-light h1#page-title, .headings-light h1#page-title-image-title, .headings-light .page-title-section h1, .headings-light h2, .headings-light h2.block-title, .headings-light h2.node-title, .headings-light h3, .headings-light h4, .headings-light h5, .headings-light h6 { font-weight: normal; }
+.headings-light h1 strong, .headings-light h1 b, .headings-light h1#page-title strong, .headings-light h1#page-title b, .headings-light h1#page-title-image-title strong, .headings-light h1#page-title-image-title b, .headings-light .page-title-section h1 strong, .headings-light .page-title-section h1 b, .headings-light h2 strong, .headings-light h2 b, .headings-light h2.block-title strong, .headings-light h2.block-title b, .headings-light h2.node-title strong, .headings-light h2.node-title b, .headings-light h3 strong, .headings-light h3 b, .headings-light h4 strong, .headings-light h4 b, .headings-light h5 strong, .headings-light h5 b, .headings-light h6 strong, .headings-light h6 b { font-weight: bold; }
 
-.brand-fonts h1#page-title, .brand-fonts h1#page-title-image-title, .brand-fonts .page-title-section h1, .brand-fonts h2, .brand-fonts h3, .brand-fonts h4 { font-weight: 700; }
-.brand-fonts h1#page-title strong, .brand-fonts h1#page-title b, .brand-fonts h1#page-title-image-title strong, .brand-fonts h1#page-title-image-title b, .brand-fonts .page-title-section h1 strong, .brand-fonts .page-title-section h1 b, .brand-fonts h2 strong, .brand-fonts h2 b, .brand-fonts h3 strong, .brand-fonts h3 b, .brand-fonts h4 strong, .brand-fonts h4 b { font-weight: 700; }
+.brand-fonts h1 h1#page-title, .brand-fonts h1#page-title-image-title, .brand-fonts .page-title-section h1, .brand-fonts h2, .brand-fonts h3, .brand-fonts h4 { font-weight: 700; }
+.brand-fonts h1 h1#page-title strong, .brand-fonts h1 h1#page-title b, .brand-fonts h1#page-title-image-title strong, .brand-fonts h1#page-title-image-title b, .brand-fonts .page-title-section h1 strong, .brand-fonts .page-title-section h1 b, .brand-fonts h2 strong, .brand-fonts h2 b, .brand-fonts h3 strong, .brand-fonts h3 b, .brand-fonts h4 strong, .brand-fonts h4 b { font-weight: 700; }
 .brand-fonts h5, .brand-fonts h6 { font-weight: 600; }
 .brand-fonts h2.block-title, .brand-fonts h2.node-title { font-weight: 700; }
-.brand-fonts.headings-light h1#page-title, .brand-fonts.headings-light h1#page-title-image-title, .brand-fonts.headings-light .page-title-section h1, .brand-fonts.headings-light h2, .brand-fonts.headings-light h2.block-title, .brand-fonts.headings-light h2.node-title, .brand-fonts.headings-light h3, .brand-fonts.headings-light h4, .brand-fonts.headings-light h5, .brand-fonts.headings-light h6 { font-weight: 200; }
-.brand-fonts.headings-light h1#page-title strong, .brand-fonts.headings-light h1#page-title b, .brand-fonts.headings-light h1#page-title-image-title strong, .brand-fonts.headings-light h1#page-title-image-title b, .brand-fonts.headings-light .page-title-section h1 strong, .brand-fonts.headings-light .page-title-section h1 b, .brand-fonts.headings-light h2 strong, .brand-fonts.headings-light h2 b, .brand-fonts.headings-light h2.block-title strong, .brand-fonts.headings-light h2.block-title b, .brand-fonts.headings-light h2.node-title strong, .brand-fonts.headings-light h2.node-title b, .brand-fonts.headings-light h3 strong, .brand-fonts.headings-light h3 b, .brand-fonts.headings-light h4 strong, .brand-fonts.headings-light h4 b, .brand-fonts.headings-light h5 strong, .brand-fonts.headings-light h5 b, .brand-fonts.headings-light h6 strong, .brand-fonts.headings-light h6 b { font-weight: 600; }
+.brand-fonts.headings-light h1 h1#page-title, .brand-fonts.headings-light h1#page-title-image-title, .brand-fonts.headings-light .page-title-section h1, .brand-fonts.headings-light h2, .brand-fonts.headings-light h2.block-title, .brand-fonts.headings-light h2.node-title, .brand-fonts.headings-light h3, .brand-fonts.headings-light h4, .brand-fonts.headings-light h5, .brand-fonts.headings-light h6 { font-weight: 200; }
+.brand-fonts.headings-light h1 h1#page-title strong, .brand-fonts.headings-light h1 h1#page-title b, .brand-fonts.headings-light h1#page-title-image-title strong, .brand-fonts.headings-light h1#page-title-image-title b, .brand-fonts.headings-light .page-title-section h1 strong, .brand-fonts.headings-light .page-title-section h1 b, .brand-fonts.headings-light h2 strong, .brand-fonts.headings-light h2 b, .brand-fonts.headings-light h2.block-title strong, .brand-fonts.headings-light h2.block-title b, .brand-fonts.headings-light h2.node-title strong, .brand-fonts.headings-light h2.node-title b, .brand-fonts.headings-light h3 strong, .brand-fonts.headings-light h3 b, .brand-fonts.headings-light h4 strong, .brand-fonts.headings-light h4 b, .brand-fonts.headings-light h5 strong, .brand-fonts.headings-light h5 b, .brand-fonts.headings-light h6 strong, .brand-fonts.headings-light h6 b { font-weight: 600; }
 
 p, dl, hr, ol, ul, pre, table, address, fieldset { margin: 0 0 20px 0; }
 
@@ -868,6 +868,12 @@ ul.ucb-vnav a.active { font-weight: bold; background: rgba(128, 128, 128, 0.166)
 .background-color-gray-900 { background: #1a1a1a; }
 
 /** Helper classes. */
+.shadow-small { -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); }
+
+.shadow-medium { -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+.shadow-large { -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
+
 .no-underline a, a.no-underline { text-decoration: none !important; }
 
 .padding-none { padding: 0px !important; }
@@ -985,6 +991,8 @@ ul.ucb-vnav a.active { font-weight: bold; background: rgba(128, 128, 128, 0.166)
 @media screen and (min-width: 768px) and (max-width: 991px) { .invisible-sm { border: 0; height: 1px; overflow: hidden; padding: 0; position: absolute !important; width: 1px; white-space: nowrap; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); } }
 @media screen and (min-width: 992px) and (max-width: 1139px) { .invisible-md { border: 0; height: 1px; overflow: hidden; padding: 0; position: absolute !important; width: 1px; white-space: nowrap; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); } }
 @media screen and (min-width: 1140px) { .invisible-lg { border: 0; height: 1px; overflow: hidden; padding: 0; position: absolute !important; width: 1px; white-space: nowrap; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); } }
+.background-image-cover { background-repeat: no-repeat; background-size: cover; background-position: center center; }
+
 /** Global styles */
 html { box-sizing: border-box; }
 
