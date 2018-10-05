@@ -32,6 +32,8 @@ a:active, a:focus { color: #B71C1C; text-decoration-color: rgba(183, 28, 28, 0.6
 
 .container-fluid { width: 100%; padding-right: 20px; padding-left: 20px; margin-right: auto; margin-left: auto; }
 
+.bleed { left: 50%; margin-left: -50vw; margin-right: -50vw; position: relative; right: 50%; width: 100vw; }
+
 .row { margin-left: -20px; margin-right: -20px; }
 
 .element-spacing { padding: 0 20px; }
