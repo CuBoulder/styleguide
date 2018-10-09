@@ -15,6 +15,17 @@
     <!-- {{ site.url }} -->
     <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 
+    <!-- Code Highlighting -->
+    <link rel="stylesheet" href="/styleguide/highlight/styles/atom-one-dark.css">
+    <script src="/styleguide/highlight/highlight.pack.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });
+    </script>
+
   </head>
   <body class="headings-bold background-color-black">
     <div class="page">
@@ -46,6 +57,7 @@
             <li><a href="/styleguide/icons.html" {% if page.section == "icons" %}class="active"{% endif %}>Icons</a></li>
             <li><a href="/styleguide/forms.html" {% if page.section == "forms" %}class="active"{% endif %}>Forms</a></li>
             <li><a href="/styleguide/navigation.html" {% if page.section == "navigation" %}class="active"{% endif %}>Navigation</a></li>
+            <li><a href="/styleguide/images.html" {% if page.section == "images" %}class="active"{% endif %}>Images</a></li>
           </ul>
         </nav>
         </div>

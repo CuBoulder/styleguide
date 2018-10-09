@@ -60,6 +60,7 @@ section: colors
 </div>
 
 <h2>Application Colors</h2>
+<p>These colors are meant to be used in web applications for highlighting error, warning, and success messages and elements.</p>
 <div class="row">
 {% for color in site.data.colors %}
   {% if color.type == 'application' %}
@@ -71,6 +72,7 @@ section: colors
 </div>
 
 <h2>Notification/Message Colors</h2>
+<p>These colors can be used as backgrounds for messages and notifications.</p>
 <div class="row">
 {% for color in site.data.colors %}
   {% if color.type == 'notification' %}
@@ -81,7 +83,7 @@ section: colors
 {% endfor %}
 </div>
 
-
+<h2>Text Color</h2>
 
 <p>When applying the background classes, an accessible text color is also set. However, not all background colors work well with links. If a link is not readable on a background color, the use of buttons is recommended.</p>
 
@@ -112,9 +114,11 @@ section: colors
 <h3>Usage</h3>
 {% for color in site.data.colors %}
 <h4>{{ color.color }}</h4>
-<div class="content background-gray-light border padding margin-bottom">
-  <p><code>&lt;div class="padding {{ color.color-only-class }}"&gt;&lt;/div&gt;</code></p>
-</div>
+<pre>
+  <code>
+    &lt;div class="padding {{ color.color-only-class }}"&gt;&lt;/div&gt;
+  </code>
+</pre>
 {% endfor %}
 
 <script type="text/javascript" src="/styleguide/js/styleguide.js"></script>
