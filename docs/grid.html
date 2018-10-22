@@ -5,8 +5,10 @@ layout: default
 ---
 
 <p>You can also add an 12 column grid to create a site or page layout.</p>
-<p>This grid is based on the Bootstrap grid system, so if you are already familiar with the Bootstrap grid classes (col-lg-6 col-md-4 col-sm-12) this should be simple to use.
-
+<p>This grid is based on the <a href="https://getbootstrap.com/docs/4.1/layout/grid/">Bootstrap grid system</a>, so if you are already familiar with the Bootstrap grid classes (col-lg-6 col-md-4 col-sm-12) this should be simple to use.</p>
+<div class="background-yellow color-border padding margin-bottom content">
+  <p><i class="fas fa-exclamation-triangle"></i> In order to use this grid you must also include the <a href="https://github.com/CuBoulder/styleguide/blob/master/css/elements/grid.css">grid CSS stylesheet</a>.</p>
+</div>
 <div class="row text-minify">
 
   <div class="col-xs-12">
@@ -100,6 +102,31 @@ layout: default
   </div>
   <div class="col-xs-9">
     <div class="padding background-gray-light text-minify text-align-center margin-bottom-large">Three Quarters</div>
+  </div>
+</div>
+
+<h3>Grid with Vertically Centered Contents</h3>
+<p>Add the .center-vertical class to the .row element to have the contents centered vertically. (This example is for desktop view only - content will stack on mobile devices)</p>
+<div class="row gutters-none center-vertical margin-xs-bottom margin-md-bottom-none">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <img src="http://via.placeholder.com/1600x900" alt="placeholder image" />
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="content padding">
+      <h4>Diam consequat condimentum</h4>
+      <p>Mus ultrices primis dapibus erat natoque integer facilisis tellus feugiat netus varius praesent egestas nostra varius.</p>
+    </div>
+  </div>
+</div>
+<div class="row gutters-none center-vertical direction-lg-row-reverse direction-md-row-reverse margin-xs-bottom margin-md-bottom-none">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <img src="http://via.placeholder.com/1600x900" alt="placeholder image" />
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="content padding">
+      <h4>Placerat vel varius consectetuer venenatis </h4>
+      <p>Facilisi a posuere Posuere, neque non orci cursus. Molestie convallis porta eget torquent venenatis porttitor sagittis.</p>
+    </div>
   </div>
 </div>
 
