@@ -9,7 +9,10 @@ section: colors
 {% for color in site.data.colors %}
   {% if color.type == 'brand' %}
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch color-border">
+      <strong>{{ color.color }}</strong><br />
+      <a href="#">Link Example</a>
+    </div>
   </div>
   {% endif %}
 {% endfor %}
@@ -20,7 +23,10 @@ section: colors
 {% for color in site.data.colors %}
   {% if color.type == 'neutral' %}
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch {% if color.color == 'White' %}border{% endif %}"><strong>{{ color.color }}</strong></div>
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch color-border {% if color.color == 'White' %}{% endif %}">
+      <strong>{{ color.color }}</strong><br />
+      <a href="#">Link Example</a>
+    </div>
   </div>
   {% endif %}
 {% endfor %}
@@ -31,7 +37,10 @@ section: colors
 {% for color in site.data.colors %}
   {% if color.type == 'primary' %}
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch color-border">
+      <strong>{{ color.color }}</strong><br />
+      <a href="#">Link Example</a>
+    </div>
   </div>
   {% endif %}
 {% endfor %}
@@ -42,7 +51,10 @@ section: colors
 {% for color in site.data.colors %}
   {% if color.type == 'secondary' %}
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch  color-border">
+      <strong>{{ color.color }}</strong><br />
+      <a href="#">Link Example</a>
+    </div>
   </div>
   {% endif %}
 {% endfor %}
@@ -53,7 +65,10 @@ section: colors
 {% for color in site.data.colors %}
   {% if color.type == 'tertiary' %}
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch color-border">
+      <strong>{{ color.color }}</strong><br />
+      <a href="#">Link Example</a>
+    </div>
   </div>
   {% endif %}
 {% endfor %}
@@ -65,7 +80,10 @@ section: colors
 {% for color in site.data.colors %}
   {% if color.type == 'application' %}
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch color-border">
+      <strong>{{ color.color }}</strong><br />
+      <a href="#">Link Example</a>
+    </div>
   </div>
   {% endif %}
 {% endfor %}
@@ -77,7 +95,10 @@ section: colors
 {% for color in site.data.colors %}
   {% if color.type == 'notification' %}
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch"><strong>{{ color.color }}</strong></div>
+    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch color-border">
+      <strong>{{ color.color }}</strong><br />
+      <a href="#">Link Example</a>
+    </div>
   </div>
   {% endif %}
 {% endfor %}
@@ -93,7 +114,7 @@ section: colors
   {% for color in site.data.colors %}
   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
   <h4>{{ color.color }}</h4>
-  <div class="content {{ color.class }} padding margin-bottom {% if color.color == 'White' %}border{% endif %}">
+  <div class="content {{ color.class }} padding margin-bottom {% if color.color == 'White' %}color-border{% endif %}">
     <p><code>&lt;div class="padding {{ color.class }}"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/div&gt;</code></p>
   </div>
   </div>

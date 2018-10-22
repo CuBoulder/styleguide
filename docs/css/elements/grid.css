@@ -36,6 +36,26 @@ a:active, a:focus { color: #B71C1C; text-decoration-color: rgba(183, 28, 28, 0.6
 
 .row { margin-left: -20px; margin-right: -20px; }
 
+.row.direction-xs-column { flex-direction: column; }
+
+.row.direction-xs-column-reverse { flex-direction: column-reverse; }
+
+.row.direction-xs-row { flex-direction: row; }
+
+.row.direction-xs-row-reverse { flex-direction: row-reverse; }
+
+@media (min-width: 576px) { .row.direction-sm-column { flex-direction: column; }
+  .row.direction-sm-column-reverse { flex-direction: column-reverse; }
+  .row.direction-sm-row { flex-direction: row; }
+  .row.direction-sm-row-reverse { flex-direction: row-reverse; } }
+@media (min-width: 768px) { .row.direction-md-column { flex-direction: column; }
+  .row.direction-md-column-reverse { flex-direction: column-reverse; }
+  .row.direction-md-row { flex-direction: row; }
+  .row.direction-md-row-reverse { flex-direction: row-reverse; } }
+@media (min-width: 992px) { .row.direction-lg-column { flex-direction: column; }
+  .row.direction-lg-column-reverse { flex-direction: column-reverse; }
+  .row.direction-lg-row { flex-direction: row; }
+  .row.direction-lg-row-reverse { flex-direction: row-reverse; } }
 .element-spacing { padding: 0 20px; }
 
 /* Max width classes for elements */
@@ -188,7 +208,7 @@ a:active, a:focus { color: #B71C1C; text-decoration-color: rgba(183, 28, 28, 0.6
   .offset-sm-9 { margin-left: 75%; }
   .offset-sm-10 { margin-left: 83.333333%; }
   .offset-sm-11 { margin-left: 91.666667%; } }
-@media (min-width: 769px) { .col-md { -ms-flex-preferred-size: 0; flex-basis: 0; -ms-flex-positive: 1; flex-grow: 1; max-width: 100%; }
+@media (min-width: 768px) { .col-md { -ms-flex-preferred-size: 0; flex-basis: 0; -ms-flex-positive: 1; flex-grow: 1; max-width: 100%; }
   .col-md-auto { -ms-flex: 0 0 auto; flex: 0 0 auto; width: auto; max-width: none; }
   .col-md-1 { -ms-flex: 0 0 8.333333%; flex: 0 0 8.333333%; max-width: 8.333333%; }
   .col-md-2 { -ms-flex: 0 0 16.666667%; flex: 0 0 16.666667%; max-width: 16.666667%; }
