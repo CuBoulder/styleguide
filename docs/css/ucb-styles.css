@@ -994,7 +994,7 @@ nav ol.breadcrumbs li:last-child:after { content: none; padding: 0; }
 .background-color-gold.color-border { border: 1px solid rgba(168, 138, 61, 0.4); }
 
 .background-gold, .exbd-block.exbd-style-gold { background-color: #cfb87c; color: #111111; }
-.background-gold a:link, .background-gold a:visited, .exbd-block.exbd-style-gold a:link, .exbd-block.exbd-style-gold a:visited { color: #222; }
+.background-gold a:link, .background-gold a:visited, .exbd-block.exbd-style-gold a:link, .exbd-block.exbd-style-gold a:visited { color: #444; }
 .background-gold a:hover, .background-gold a:active, .background-gold a:focus, .exbd-block.exbd-style-gold a:hover, .exbd-block.exbd-style-gold a:active, .exbd-block.exbd-style-gold a:focus { color: #000; }
 .background-gold.color-border, .exbd-block.exbd-style-gold.color-border { border: 1px solid rgba(168, 138, 61, 0.4); }
 .background-gold.background-transparent, .exbd-block.exbd-style-gold.background-transparent { background-color: rgba(207, 184, 124, 0.7); }
@@ -1202,7 +1202,7 @@ nav ol.breadcrumbs li:last-child:after { content: none; padding: 0; }
   .margin-xs-right { margin-right: 20px; }
   .margin-xs-right-small { margin-right: 10px; }
   .margin-xs-right-large { margin-right: 40px; } }
-@media (min-width: 576px) and (min-width: 767px) { .margin-sm-top { margin-top: 20px; }
+@media (min-width: 576px) and (max-width: 767px) { .margin-sm-top { margin-top: 20px; }
   .margin-sm-top-small { margin-top: 10px; }
   .margin-sm-top-large { margin-top: 40px; }
   .margin-sm-bottom { margin-bottom: 20px; }
@@ -1214,7 +1214,7 @@ nav ol.breadcrumbs li:last-child:after { content: none; padding: 0; }
   .margin-sm-right { margin-right: 20px; }
   .margin-sm-right-small { margin-right: 10px; }
   .margin-sm-right-large { margin-right: 40px; } }
-@media (min-width: 768px) and (min-width: 991px) { .margin-md-top { margin-top: 20px; }
+@media (min-width: 768px) and (max-width: 991px) { .margin-md-top { margin-top: 20px; }
   .margin-md-top-small { margin-top: 10px; }
   .margin-md-top-large { margin-top: 40px; }
   .margin-md-bottom { margin-bottom: 20px; }
