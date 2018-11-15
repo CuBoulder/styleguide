@@ -56,19 +56,19 @@
   class: background-blue-medium
   color-only-class: background-color-blue-medium
   hex: '#4FC3F7'
-  type: tertiary
+  type: secondary
 
 - color: Dark Blue
   class: background-blue-dark
   color-only-class: background-color-blue-dark
   hex: '#01579B'
-  type: tertiary
+  type: secondary
 
 - color: Brick
   class: background-brick
   color-only-class: background-color-brick
   hex: '#ae5a39'
-  type: tertiary
+  type: secondary
 
 - color: Red
   class: background-red
