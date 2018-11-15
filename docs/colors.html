@@ -4,6 +4,7 @@ title: Colors
 section: colors
 ---
 <p>While the Be Boulder visual guidelines advise adding color through photography, this styleguide provides a variety of colors to be used for backgrounds on elements of your site or application.</p>
+<p>While there are a variety of colors available, we suggest either using one of the secondary or tertiary colors per page, or using multiple colors on a single element (for example, a row of 3 colored boxes).</p>
 <h2>Brand Colors</h2>
 <div class="row">
 {% for color in site.data.colors %}
@@ -47,6 +48,7 @@ section: colors
 </div>
 
 <h2>Secondary Colors</h2>
+<p>We recommended only using a single secondary or tertiary color per page. This color can be used on elements of any size.</p>
 <div class="row">
 {% for color in site.data.colors %}
   {% if color.type == 'secondary' %}
@@ -61,6 +63,7 @@ section: colors
 </div>
 
 <h2>Tertiary Colors</h2>
+<p>We recommended only using a single secondary or tertiary color per page. This color should be used on small elements.</p>
 <div class="row">
 {% for color in site.data.colors %}
   {% if color.type == 'tertiary' %}
@@ -106,7 +109,7 @@ section: colors
 
 <h2>Text Color</h2>
 
-<p>When applying the background classes, an accessible text color is also set. However, not all background colors work well with links. If a link is not readable on a background color, the use of buttons is recommended.</p>
+<p>When applying the background classes, an accessible text color is also set.</p>
 
 <h2>Usage</h2>
 
