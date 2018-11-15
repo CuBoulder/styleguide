@@ -48,7 +48,7 @@ section: colors
 </div>
 
 <h2>Secondary Colors</h2>
-<p>We recommended only using a single secondary or tertiary color per page. This color can be used on elements of any size.</p>
+<p>We recommended only using a single secondary or tertiary color per page.</p>
 <div class="row">
 {% for color in site.data.colors %}
   {% if color.type == 'secondary' %}
@@ -62,20 +62,6 @@ section: colors
 {% endfor %}
 </div>
 
-<h2>Tertiary Colors</h2>
-<p>We recommended only using a single secondary or tertiary color per page. This color should be used on small elements.</p>
-<div class="row">
-{% for color in site.data.colors %}
-  {% if color.type == 'tertiary' %}
-  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-    <div class="{{ color.class }} text-minify padding padding-vertical-large margin-bottom color-swatch color-border">
-      <strong>{{ color.color }}</strong><br />
-      <a href="#">Link Example</a>
-    </div>
-  </div>
-  {% endif %}
-{% endfor %}
-</div>
 
 <h2>Application Colors</h2>
 <p>These colors are meant to be used in web applications for highlighting error, warning, and success messages and elements.</p>
