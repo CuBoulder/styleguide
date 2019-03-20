@@ -132,7 +132,13 @@
   .margin-xs-left-large { margin-left: 40px; }
   .margin-xs-right { margin-right: 20px; }
   .margin-xs-right-small { margin-right: 10px; }
-  .margin-xs-right-large { margin-right: 40px; } }
+  .margin-xs-right-large { margin-right: 40px; }
+  .padding-xs { padding: 20px; }
+  .padding-xs-small { padding: 10px; }
+  .padding-xs-large { padding: 40px; }
+  .padding-xs-vertical { padding-top: 20px; padding-bottom: 20px; }
+  .padding-xs-small-vertical { padding-top: 10px; padding-bottom: 10px; }
+  .padding-xs-large-vertical { padding-top: 40px; padding-bottom: 40px; } }
 @media (min-width: 576px) and (max-width: 767px) { .margin-sm-top { margin-top: 20px; }
   .margin-sm-top-small { margin-top: 10px; }
   .margin-sm-top-large { margin-top: 40px; }
@@ -144,7 +150,13 @@
   .margin-sm-left-large { margin-left: 40px; }
   .margin-sm-right { margin-right: 20px; }
   .margin-sm-right-small { margin-right: 10px; }
-  .margin-sm-right-large { margin-right: 40px; } }
+  .margin-sm-right-large { margin-right: 40px; }
+  .padding-sm { padding: 20px; }
+  .padding-sm-small { padding: 10px; }
+  .padding-sm-large { padding: 40px; }
+  .padding-sm-vertical { padding-top: 20px; padding-bottom: 20px; }
+  .padding-sm-small-vertical { padding-top: 10px; padding-bottom: 10px; }
+  .padding-sm-large-vertical { padding-top: 40px; padding-bottom: 40px; } }
 @media (min-width: 768px) and (max-width: 991px) { .margin-md-top { margin-top: 20px; }
   .margin-md-top-small { margin-top: 10px; }
   .margin-md-top-large { margin-top: 40px; }
@@ -156,7 +168,13 @@
   .margin-md-left-large { margin-left: 40px; }
   .margin-md-right { margin-right: 20px; }
   .margin-md-right-small { margin-right: 10px; }
-  .margin-md-right-large { margin-right: 40px; } }
+  .margin-md-right-large { margin-right: 40px; }
+  .padding-md { padding: 20px; }
+  .padding-md-small { padding: 10px; }
+  .padding-md-large { padding: 40px; }
+  .padding-md-vertical { padding-top: 20px; padding-bottom: 20px; }
+  .padding-md-small-vertical { padding-top: 10px; padding-bottom: 10px; }
+  .padding-md-large-vertical { padding-top: 40px; padding-bottom: 40px; } }
 @media screen and (min-width: 992px) { .margin-lg-top { margin-top: 20px; }
   .margin-lg-top-small { margin-top: 10px; }
   .margin-lg-top-large { margin-top: 40px; }
@@ -168,7 +186,13 @@
   .margin-lg-left-large { margin-left: 40px; }
   .margin-lg-right { margin-right: 20px; }
   .margin-lg-right-small { margin-right: 10px; }
-  .margin-lg-right-large { margin-right: 40px; } }
+  .margin-lg-right-large { margin-right: 40px; }
+  .padding-lg { padding: 20px; }
+  .padding-lg-small { padding: 10px; }
+  .padding-lg-large { padding: 40px; }
+  .padding-lg-vertical { padding-top: 20px; padding-bottom: 20px; }
+  .padding-lg-small-vertical { padding-top: 10px; padding-bottom: 10px; }
+  .padding-lg-large-vertical { padding-top: 40px; padding-bottom: 40px; } }
 .align-left { float: left; }
 
 .align-right { float: right; }
