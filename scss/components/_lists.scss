@@ -17,9 +17,7 @@ ul, ol {
     margin-bottom: 0;
   }
 }
-.item-list,
-.field-type-text-with-summary,
-.field-type-text-long {
+.item-list {
   ul li {
     list-style: disc;
     margin-bottom:10px;
@@ -44,17 +42,14 @@ ul, ol {
   }
 }
 
-
-.node ol,
-.node ul,
 ul,
 ol {
   padding-left: 1.5em;
 }
 
-.node ul.inline,
-.node ol.inline,
-ul.inline,ol.inline {
+
+ul.inline,
+ol.inline {
   padding-left: 0;
 }
 
