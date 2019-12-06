@@ -20,11 +20,15 @@
     <link rel="stylesheet" href="/highlight/styles/atom-one-dark.css">
     <script src="/highlight/highlight.pack.js"></script>
 
+    <!-- Copy code to clipboard -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+
+
     <!-- Site JS -->
     <script src="/js/styleguide.js"></script>
     <script>
     $(document).ready(function() {
-      $('pre code').each(function(i, block) {
+      $('figure').each(function(i, block) {
         hljs.highlightBlock(block);
       });
     });

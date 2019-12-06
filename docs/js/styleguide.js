@@ -8,9 +8,21 @@ $(document).ready(function(){
   $('.code-example').each(function(){
 
     var a = $(this).html();
-    $('<code></code>').appendTo($(this));
+    $('<div class="code-example-code"><button class="copy-code"><i class="fa fa-copy"></i> Copy</button><figure></figure></div>').appendTo($(this));
     var text = document.createTextNode(a);
-    $('code', this).html(text);
+    console.log(text);
+    $('figure', this).html(text);
+  });
+
+  $('.copy-code1').click(function(){
+    $(this).next().html().select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+  });
+  new ClipboardJS('.copy-code', {
+    target: function(trigger) {
+        return trigger.nextElementSibling;
+    }
   });
 });
 
