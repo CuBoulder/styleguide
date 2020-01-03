@@ -16,7 +16,8 @@ The styleguide can be viewed at https://cuboulder.github.io/styleguide/
 
 ### Jekyll Commands
 bundle exec jekyll serve
+(Run this from /docs)
 
 ### SASS/CSS Compile/Build Commands
 gulp
-(This creates watchers for scss and css directories. Changes to scss directory compile files and save them to css directory. Changes to css directory are copied to docs/css).
+(Run this from root. This creates watchers for scss and css directories. Changes to scss directory compile files and save them to css directory. Changes to css directory are copied to docs/css)

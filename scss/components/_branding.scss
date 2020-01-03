@@ -11,165 +11,36 @@
  }
 
  // Banner Colors
- .banner-white .header-wrapper,
  header.white {
    background: $white;
    color:$text-black;
    a:link, a:visited, a:hover {
      color:$text-black;
    }
-   .menu-toggle {
-     button {
-       color:$text-black;
-       border-color: rgba(128,128,128,.5);
-     }
-   }
-   a.search-toggle:link,
-   a.search-toggle:visited {
-     color:$text-black;
-   }
  }
- .banner-light .header-wrapper,
  header.light {
    background: $gray-light;
    color:$text-black;
    a:link, a:visited, a:hover {
      color:$text-black;
    }
-   .menu-toggle {
-     button {
-       color:$text-black;
-       border-color: rgba(128,128,128,.5);
-     }
-   }
-   a.search-toggle:link,
-   a.search-toggle:visited {
-     color:$text-black;
-   }
  }
- .banner-dark .header-wrapper,
  header.dark {
    background: $gray-dark;
    color:$white;
    a:link, a:visited, a:hover {
      color:$white;
    }
-   .menu-toggle {
-     button {
-       color:$white;
-       border-color: rgba(128,128,128,.5);
-     }
-   }
-   a.search-toggle:link,
-   a.search-toggle:visited {
-     color:$white;
-   }
  }
- .banner-black .header-wrapper,
  header.black {
    background: $black;
    color:$white;
    a:link, a:visited, a:hover {
      color:$white;
    }
-   .menu-toggle {
-     button {
-       color:$white;
-       border-color: rgba(128,128,128,.5);
-     }
-   }
-   a.search-toggle:link,
-   a.search-toggle:visited {
-     color:$white;
-   }
- }
- header {
 
  }
 
-
- #branding {
-   position: relative;
- }
-
-
-
-
-
-
-
-
-
-
-
- /* NEW BRANDING */
- .brand-bar {
-   background: #000;
-   color:#fff;
-   padding:10px 0px;
-   a:link,
-   a:visited {
-     color:#fff;
-   }
-   &.brand-bar-color-white {
-     background:#000;
-     color:#fff;
-     a:link,
-     a:visited {
-       color:#fff;
-     }
-   }
-   &.brand-bar-color-black {
-     background:#fff;
-     color:#000;
-     a:link,
-     a:visited {
-       color:#000;
-     }
-   }
- }
- .brand-bar-container {
-
-   display:flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items:center;
-   width:100%;
-   .brand-logo {
-     max-width: 200px;
-     min-width:160px;
-     width:100%;
-     @media screen and (min-width:768px) {
-       & {
-         max-width:240px;
-         // margin:5px 0;
-       }
-     }
-   }
-   .brand-logo img {
-     width:100%;
-
-     height: auto;
-     display: block;
-
-   }
- }
-
- .brand-color-white,
- .brand-bar-reverse,
- .brand-bar-dark ,
- .brand-bar-black  {
-   color:#fff !important;
-   a:link, a:visited {
-     color:#fff !important;
-   }
- }
-
-
- .header-wrapper {
-   background: $white;
-   color:$text-black;
- }
  header.ucb {
    position: relative;
    display:flex;

@@ -136,3 +136,8 @@ img.image-inline {
 img.circular {
   border-radius: 100%;
 }
+
+// Centering images
+p[style*="text-align:center"] img {
+ display: inline-block;
+}

@@ -7,69 +7,61 @@ section: typography
 <p>The official brand font is Helvetica Neue.  There is a cost associated with using Helvetica Neue as a web font. Subdomain websites can opt to use the secondary approved brand web font,  Roboto, which is free (website usage only). </p>
 
 <p>Subdomain sites are encourage, but not required, to implement Roboto for their web font. Roboto is a free font maintained by Google and you can add the font to your site with the code below:</p>
-<h3 class="type-size"><i class="fa fa-code" aria-hidden="true"></i> HTML</h3>
- <pre>
-  <code>
-    &lt;link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700" rel="stylesheet"&gt;
-  </code>
-</pre>
+
+<div class="code-example invisible-xs">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700" rel="stylesheet">
+</div>
 <p>The CU Boulder styleguide CSS already includes the proper references to this webfont, but you can also define the fonts yourself with the following css:</p>
-<h3 class="type-size"><i class="fa fa-code" aria-hidden="true"></i> CSS</h3>
-<pre>
-  <code>
-    font-family: 'Roboto', sans-serif;<br />
-    font-family: 'Roboto Condensed', sans-serif;
-  </code>
-</pre>
+<div class="code-example">
+font-family: 'Roboto', sans-serif;\r
+font-family: 'Roboto Condensed', sans-serif;
+</div>
+
+
+<div class="code-example">
+  <div>this is a div</div>
+</div>
+
+
 <h2>Headings</h2>
-<style>
-  .code-example {
-    border:1px solid red;
-  }
-</style>
 <div class="content border padding margin-bottom">
-  <div class="code-example"><h1>Heading Level 1</h1></div>
-  <h2>Heading Level 2</h2>
-  <h3>Heading Level 3</h3>
-  <h4>Heading Level 4</h4>
-  <h5>Heading Level 5</h5>
-  <h6>Heading Level 6</h6>
+  <div class="code-example">
+    <h1>Heading Level 1</h1>
+  </div>
+  <div class="code-example">
+    <h2>Heading Level 2</h2>
+  </div>
+  <div class="code-example">
+    <h3>Heading Level 3</h3>
+  </div>
+  <div class="code-example">
+    <h4>Heading Level 4</h4>
+  </div>
+  <div class="code-example">
+    <h5>Heading Level 5</h5>
+  </div>
+  <div class="code-example">
+    <h6>Heading Level 6</h6>
+  </div>
 </div>
 <p>.h1 through .h6 classes are also available, for when you want to match the font styling of a heading but cannot use the associated HTML element.</p>
-<h3 class="type-size"><i class="fa fa-code" aria-hidden="true"></i> HTML</h3>
-<pre>
-  <code>
-    &lt;p class="h1"&gt;Heading Level 1&lt;/h1&gt;
-    &lt;p class="h2"&gt;Heading Level 2&lt;/p&gt;
-    &lt;p class="h3"&gt;Heading Level 3&lt;/p&gt;
-    &lt;p class="h4"&gt;Heading Level 4&lt;/p&gt;
-    &lt;p class="h5"&gt;Heading Level 5&lt;/p&gt;
-    &lt;p class="h6"&gt;Heading Level 6&lt;/p&gt;
-  </code>
-</pre>
+<div class="code-example">
+  <h2 class="h5">This is an H2 heading with the .h5 class applied</h2>
+</div>
+
 <h2>Paragraphs</h2>
-<p>This is a normal paragraph. On static pages, it's designed for readability and optimizing the number of characters per line. The font size is larger to account for longer chunks of text.</p>
+<div class="code-example">
+  <p>This is a normal paragraph. On static pages, it's designed for readability and optimizing the number of characters per line. The font size is larger to account for longer chunks of text.</p>
+</div>
+<div class="code-example">
+  <p class="lead">This is a lead paragraph. It might be used as a longer-form tagline or subheading for a page or content section. It has a slightly larger font size and line-height.</p>
+</div>
 
-<p class="lead">This is a lead paragraph. It might be used as a longer-form tagline or subheading for a page or content section. It has a slightly larger font size and line-height.</p>
-<h3 class="type-size"><i class="fa fa-code" aria-hidden="true"></i> HTML</h3>
-<pre>
-  <code>
-    &lt;p class="lead"&gt;This is a lead paragraph.&lt;/p&gt;
-  </code>
-</pre>
+<div class="code-example">
+  <p class="hero">This is a hero paragraph. It might be used to get a user's attention.</p>
+</div>
 
-<p class="hero">This is a hero paragraph. It might be used to get a user's attention.</p>
-<h3 class="type-size"><i class="fa fa-code" aria-hidden="true"></i> HTML</h3>
-<pre>
-  <code>
-    &lt;p class="hero"&gt;This is a hero paragraph.&lt;/p&gt;
-  </code>
-</pre>
 
-<p class="supersize">This is a supersize paragraph. It might be used in infographics to drastically increase the font size.</p>
-<h3 class="type-size"><i class="fa fa-code" aria-hidden="true"></i> HTML</h3>
-<pre>
-  <code>
-    &lt;p class="supersize"&gt;This is a supersize paragraph.&lt;/p&gt;
-  </code>
-</pre>
+<div class="code-example">
+  <p class="supersize">This is a supersize paragraph. It might be used in infographics to drastically increase the font size.</p>
+</div>

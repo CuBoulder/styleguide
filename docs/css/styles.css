@@ -3,3 +3,31 @@
 .banner-light .header-wrapper a:link, .banner-light .header-wrapper a:visited, .banner-light .header-wrapper a:hover, header.light a:link, header.light a:visited, header.light a:hover { color: #111111 !important; }
 .banner-dark .header-wrapper a:link, .banner-dark .header-wrapper a:visited, .banner-dark .header-wrapper a:hover, header.dark a:link, header.dark a:visited, header.dark a:hover { color: #fff !important; }
 .banner-black .header-wrapper a:link, .banner-black .header-wrapper a:visited, .banner-black .header-wrapper a:hover, header.black a:link, header.black a:visited, header.black a:hover { color: #fff !important; }
+
+.code-example-code {
+  position: relative;
+  padding:20px;
+  background:#f4f4f4;
+  color:#656565;
+  margin-bottom: 10px;
+}
+button.copy-code {
+  border:0;
+  background: 0;
+  text-transform: uppercase;
+  font-size: 65%;
+  font-weight: bold;
+  position: absolute;
+  top:5px;
+  right:5px;
+  z-index: 1;
+  color:#757575;
+}
+button.copy-code + figure {
+  font-size: 85%;
+  white-space: pre-wrap;
+
+}
+.hljs {
+  padding: 0;
+}

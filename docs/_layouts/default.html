@@ -20,12 +20,16 @@
     <link rel="stylesheet" href="/highlight/styles/atom-one-dark.css">
     <script src="/highlight/highlight.pack.js"></script>
 
+    <!-- Copy code to clipboard -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+
+
     <!-- Site JS -->
     <script src="/js/styleguide.js"></script>
     <script>
     $(document).ready(function() {
-      $('pre code').each(function(i, block) {
-        hljs.highlightBlock(block);
+      $('.code-example-code figure').each(function(i, block) {
+        //hljs.highlightBlock(block);
       });
     });
     </script>
@@ -33,7 +37,7 @@
   </head>
   <body class="headings-bold background-color-black">
     <div class="page">
-      <div class="background-black brand-bar brand-bar-black">
+      <div class="background-black brand-bar brand-bar-black padding-vertical-small">
         <div class="container">
           <script type="text/javascript" src="https://cdn.colorado.edu/static/brand-assets/live/js/brand-bar.js" id="ucb-brand-bar-embed" data-color="black"></script>
         </div>
