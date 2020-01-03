@@ -1,7 +1,9 @@
 <div class="row">
 {% for color in site.data.colors %}
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+    <div class="code-example">
     <div class="{{ color.class }} text-minify padding margin-bottom"><strong>{{ color.color }}</strong></div>
+    </div>
   </div>
 {% endfor %}
 </div>

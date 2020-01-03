@@ -2,13 +2,7 @@
 <div class="row">
   {% for button in site.data.buttons %}
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-    <p><a href="#" class="button button-{{ button.class }}">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Normal {{ button.color }}<br />
-        <strong>Class</strong>: button button-{{ button.class }}
-      </p>
-    </div>
+    <div class="code-example"><a href="#" class="button button-{{ button.class }}">Button</a></div>
   </div>
   {% endfor %}
 </div>
@@ -16,13 +10,7 @@
 <div class="row">
   {% for button in site.data.buttons %}
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-    <p><a href="#" class="button button-small button-{{ button.class }}">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Small {{ button.color }}<br />
-        <strong>Class</strong>: button button-small button-{{ button.class }}
-      </p>
-    </div>
+    <div class="code-example"><a href="#" class="button button-small button-{{ button.class }}">Button</a></div>
   </div>
   {% endfor %}
 </div>
@@ -30,13 +18,7 @@
 <div class="row">
   {% for button in site.data.buttons %}
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-    <p><a href="#" class="button button-large button-{{ button.class }}">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Large {{ button.color }}<br />
-        <strong>Class</strong>: button button-large button-{{ button.class }}
-      </p>
-    </div>
+    <div class="code-example"><a href="#" class="button button-large button-{{ button.class }}">Button</a></div>
   </div>
   {% endfor %}
 </div>
@@ -44,25 +26,12 @@
 <div class="row">
   {% for button in site.data.buttons %}
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-    <p><a href="#" class="button button-full button-{{ button.class }}">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Full {{ button.color }}<br />
-        <strong>Class</strong>: button button-full button-{{ button.class }}
-      </p>
-    </div>
+    <div class="code-example"><a href="#" class="button button-full button-{{ button.class }}">Button</a></div>
   </div>
   {% endfor %}
 </div>
 
-<h4 class="type-size"><i class="fa fa-code" aria-hidden="true"></i> HTML</h4>
-<pre>
-  <code>
-    &lt;a href="#" class="button button-blue"&gt;Button&lt;/a&gt;
-    &lt;a href="#" class="button button-gold button-small"&gt;Button&lt;/a&gt;
-    &lt;a href="#" class="button button-black button-full"&gt;Button&lt;/a&gt;
-  </code>
-</pre>
+
 
 
 <h4>Ghost Buttons</h4>
@@ -70,24 +39,11 @@
 <div class="row margin-bottom">
   {% for button in site.data.buttons %}
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-    <p><a href="#" class="button-ghost button-ghost-{{ button.class }}">Button</a></p>
-    <div class="text-minify">
-      <p>
-        <strong>Type</strong>: Ghost {{ button.color }}<br />
-        <strong>Class</strong>: button-ghost button-ghost-{{ button.class }}
-      </p>
-    </div>
+    <div class="code-example"><a href="#" class="button-ghost button-ghost-{{ button.class }}">Button</a></div>
   </div>
   {% endfor %}
 </div>
-<h5 class="type-size"><i class="fa fa-code" aria-hidden="true"></i> HTML</h5>
-<pre>
-  <code>
-    &lt;a href="#" class="button-ghost button-ghost-blue"&gt;Button&lt;/a&gt;
-    &lt;a href="#" class="button-ghost button-ghost-gold button-small"&gt;Button&lt;/a&gt;
-    &lt;a href="#" class="button-ghost button-ghost-black button-full"&gt;Button&lt;/a&gt;
-  </code>
-</pre>
+
 <h5>Examples</h5>
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">

@@ -108,8 +108,10 @@ section: colors
   {% for color in site.data.colors %}
   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
   <h4>{{ color.color }}</h4>
+  <div class="code-example">
   <div class="content {{ color.class }} padding margin-bottom {% if color.color == 'White' %}color-border{% endif %}">
-    <p><code>&lt;div class="padding {{ color.class }}"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/div&gt;</code></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
   </div>
   </div>
   {% endfor %}
@@ -119,8 +121,10 @@ section: colors
 <p>There are also some utility classes for shades of gray.</p>
 
 {% for i in (1..9) %}
+  <div class="code-example">
   <div class="padding margin-bottom content background-gray-{{ i }}00">
-    <p><code>&lt;div class="padding background-gray-{{ i }}00"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/div&gt;</code></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
   </div>
 {% endfor %}
 
@@ -129,9 +133,9 @@ section: colors
 <h3>Usage</h3>
 {% for color in site.data.colors %}
 <h4>{{ color.color }}</h4>
-<pre>
-  <code>
-    &lt;div class="padding {{ color.color-only-class }}"&gt;&lt;/div&gt;
-  </code>
-</pre>
+<div class="code-example">
+    <div class="padding {{ color.color-only-class }}">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+</div>
 {% endfor %}
