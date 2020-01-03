@@ -7,7 +7,8 @@
 .code-example-code {
   position: relative;
   padding:20px;
-  background:#282c34;
+  background:#f4f4f4;
+  color:#656565;
   margin-bottom: 10px;
 }
 button.copy-code {
@@ -20,9 +21,13 @@ button.copy-code {
   top:5px;
   right:5px;
   z-index: 1;
-  color:#fff;
+  color:#757575;
 }
 button.copy-code + figure {
   font-size: 85%;
+  white-space: pre-wrap;
 
+}
+.hljs {
+  padding: 0;
 }

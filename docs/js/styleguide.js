@@ -6,8 +6,7 @@ $(document).ready(function(){
   });
 
   $('.code-example').each(function(){
-
-    var a = $(this).html();
+    var a = $(this).html().trim();
     $('<div class="code-example-code"><button class="copy-code"><i class="fa fa-copy"></i> Copy</button><figure></figure></div>').appendTo($(this));
     var text = document.createTextNode(a);
     console.log(text);
