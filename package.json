@@ -1,0 +1,27 @@
+{
+  "name": "styleguide",
+  "version": "2.0.0",
+  "description": "CU Boulder Web Styles",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CuBoulder/styleguide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CuBoulder/styleguide/issues"
+  },
+  "homepage": "https://github.com/CuBoulder/styleguide#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-compass": "^2.1.0",
+    "gulp-watch": "^5.0.1"
+  }
+}

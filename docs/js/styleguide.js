@@ -4,6 +4,14 @@ $(document).ready(function(){
     color = rgb2hex(color);
     $(this).append('<div class="text-uppercase">'+color+'</div>');
   });
+
+  $('.code-example').each(function(){
+
+    var a = $(this).html();
+    $('<code></code>').appendTo($(this));
+    var text = document.createTextNode(a);
+    $('code', this).html(text);
+  });
 });
 
 function rgb2hex(rgb) {
