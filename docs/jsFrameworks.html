@@ -1,0 +1,55 @@
+---
+layout: default
+title: JS Frameworks
+section: jsFrameworks
+---
+
+<h2>Using the Styleguide with <a href="#gatsby-usage">React</a> or <a href="#nuxt-usage"> Vue </a></h2>
+<p>
+    The styleguide can be used in modern JavaScript frameworks like React, Vue, and Angular. This documentation will cover how to 
+    integrate the it into Nuxt and Gatsby, however using it with other frameworks should have a similar approach. 
+</p>
+<p>
+    Before you begin, add the  <strong> fontawesome npm package </strong>. You will need to include the  'faBars' and 'faHome' icons. Also, you will
+    need to downoad some CSS files. Place them where ever static files are served or with your other css. 
+    <ul>
+        <li> <a href="https://github.com/CuBoulder/styleguide/blob/master/css/elements/branding.css" target="_blank"> branding.css </a> </li>
+        <li> <a href="https://github.com/CuBoulder/styleguide/blob/master/css/elements/grid.css" target="_blank" > grid.css </a> </li>
+        <li> <a href="https://github.com/CuBoulder/styleguide/blob/master/css/ucb-styles.css" target="_blank" > ucb-styles.css </a> </li>
+    </ul>
+</p>
+<h3 id="nuxt-usage"> Nuxt </h3>
+<p>
+    Nuxt is a static site generator for Vue. To add the styleguide, you should edit the <code>default.vue</code> template or create a new one. 
+    Additionally, you will have to add the CSS files and CDN links in the <code> nuxt.config.js </code> file.
+</p>
+<p>
+    A few things have changed in the markup. First, Nuxt uses the 'nuxt-link' tag for relative paths. This means 
+    that the main menu will most likely have to be changed to use them. Also, the branding is able to have
+    a few color choices. In order to cahnge them, you will need to add all the correct classes to the tags. If you just want
+    a complete template, you can copy and paste the markup below into your <code> default.vue </code> file.
+</p>
+<script src="https://gist.github.com/brookestevens/6a1856dde74b68bf51deef376cd77438.js"></script>
+<h3 id="gatsby-usage"> Gatsby </h3>
+<p>
+    Gastby is a static site generator for React. Gatsby uses the 'Link' tag for relative links. You may have to change some of the links in the main menu to the 'Link'
+    tag instead of the regular anchor tags. Gatsby also uses Layout components that wrap the page content. To add the CDNs
+    properly, you have to copy the <code>html.js</code> component. Copy <code> cp .cache/default-html.js src/html.js </code> into your terminal from the project root. Then
+    add the CDN links under the <code>{props.headComponents}</code> line. This will add the CDNs as a static asset to all of the pages.
+</p>
+<script src="https://gist.github.com/brookestevens/4136ac1e50fd7862a1c34fb8b10b809e.js"></script>
+<h3> Extra </h3>
+<p> Moving forward, it would be nice to make an NPM package so that these components could be used easier. </p>
+
+<!-- overwrite the gist styling -->
+<script>
+    let gists = document.getElementsByClassName('gist');
+    for(let i=0; i< gists.length; i++){
+        gists[i].style.height="500px";
+        gists[i].style.overflow="scroll";
+        gists[i].style.marginBottom="3em";
+        gists[i].style.border="1px solid grey";
+        gists[i].style.padding="1em";
+        gists[i].style.backgroundColor="grey";
+    }
+</script>
