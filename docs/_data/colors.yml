@@ -90,7 +90,7 @@
 
 - color: Light Red
   class: background-red-light
-  color-only-class: background-color-red
+  color-only-class: background-color-red-light
   hex: '#ae5a39'
   type: notification
 
