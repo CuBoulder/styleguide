@@ -1,0 +1,137 @@
+---
+title: Images
+section: content
+layout: bootstrap
+---
+<p>The classes below include a variety of ways to size images in pixel and percent-based widths.</p>
+<h2>Image Pixel Widths</h2>
+{% assign px = "50|75|100|150|200" | split: '|' %}
+{% for i in px %}
+<h3>{{ i }}px</h3>
+<p>.image-{{ i }}px</p>
+<div class="code-example"><img class="image-{{ i }}px" src="https://via.placeholder.com/1600x900" alt="placeholder image" /></div>
+
+{% endfor %}
+
+<h2>Responsive Image Pixel Widths</h2>
+
+<h3>Extra Small (xs)</h3>
+<ul>
+  {% for i in px %}
+    <li>.image-xs-{{ i }}px</li>
+  {% endfor %}
+</ul>
+
+<h3>Small (sm)</h3>
+<ul>
+  {% for i in px %}
+    <li>.image-sm-{{ i }}px</li>
+  {% endfor %}
+</ul>
+
+<h3>Medium (md)</h3>
+<ul>
+  {% for i in px %}
+    <li>.image-md-{{ i }}px</li>
+  {% endfor %}
+</ul>
+
+<h3>large (lg)</h3>
+<ul>
+  {% for i in px %}
+    <li>.image-lg-{{ i }}px</li>
+  {% endfor %}
+</ul>
+
+<h3>Example</h3>
+<div class="code-example"><img class="image-lg-200px image-md-150px image-sm-100px image-xs-50px" src="https://via.placeholder.com/1600x900" alt="placeholder image" /></div>
+
+
+
+<h2>Image Percentage Widths</h2>
+<p>Using these classes will apply a consistant image width to all screen sizes. Images will always scale relative to the size of the container element.</p>
+{% assign sizes = "25|33|50|66|75|100" | split: '|' %}
+{% for i in sizes %}
+<h3>{{ i }}%</h3>
+<p>.image-{{ i }}</p>
+<div class="code-example"><img class="image-{{ i }}" src="https://via.placeholder.com/1600x900" alt="placeholder image" /></div>
+
+{% endfor %}
+
+<h2>Responsive Image Percentage Widths</h2>
+<p>Using these classes you can assign an image a different width for each breakpoint.</p>
+
+<h3>Extra Small (xs)</h3>
+<ul>
+  {% for i in sizes %}
+    <li>.image-xs-{{ i }}</li>
+  {% endfor %}
+</ul>
+
+<h3>Small (sm)</h3>
+<ul>
+  {% for i in sizes %}
+    <li>.image-sm-{{ i }}</li>
+  {% endfor %}
+</ul>
+
+<h3>Medium (md)</h3>
+<ul>
+  {% for i in sizes %}
+    <li>.image-md-{{ i }}</li>
+  {% endfor %}
+</ul>
+
+<h3>large (lg)</h3>
+<ul>
+  {% for i in sizes %}
+    <li>.image-lg-{{ i }}</li>
+  {% endfor %}
+</ul>
+
+<h3>Example</h3>
+<div class="code-example"><img class="image-lg-25 image-md-33 image-sm-50 image-xs-100" src="https://via.placeholder.com/1600x900" alt="placeholder image" /></div>
+
+<h2>Image Alignment</h2>
+<p>Using these classes you can align or float an image in different directions for each breakpoint.</p>
+
+<h3>Extra Small (xs)</h3>
+<ul>
+  <li>.image-xs-align-left</li>
+  <li>.image-xs-align-right</li>
+  <li>.image-xs-align-none</li>
+</ul>
+
+<h3>Small (sm)</h3>
+<ul>
+  <li>.image-sm-align-left</li>
+  <li>.image-sm-align-right</li>
+  <li>.image-sm-align-none</li>
+</ul>
+
+<h3>Medium (md)</h3>
+<ul>
+  <li>.image-md-align-left</li>
+  <li>.image-md-align-right</li>
+  <li>.image-md-align-none</li>
+</ul>
+
+<h3>large (lg)</h3>
+<ul>
+  <li>.image-lg-align-left</li>
+  <li>.image-lg-align-right</li>
+  <li>.image-lg-align-none</li>
+</ul>
+
+<h3>Example</h3>
+<div class="code-example">
+<div class="border padding margin-bottom">
+  <p><img class="image-lg-25 image-md-33 image-sm-50 image-xs-100 image-lg-align-left image-md-align-right image-sm-align-left image-xs-align-none margin-bottom" src="https://via.placeholder.com/1600x900" alt="placeholder image" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>At ultrices mi tempus imperdiet nulla malesuada. Vel turpis nunc eget lorem. Leo a diam sollicitudin tempor id. Vitae justo eget magna fermentum iaculis. Urna id volutpat lacus laoreet non curabitur gravida arcu ac. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. In vitae turpis massa sed elementum tempus egestas sed sed. Facilisis magna etiam tempor orci eu lobortis elementum.</p>
+</div>
+</div>
+
+<h2>Circle Images</h2>
+<p>Square images can be styles to appear as a circle by adding the .circular class.</p>
+
+<div class="code-example"><img src="https://via.placeholder.com/900x900" class="image-lg-25 image-md-33 image-sm-50 image-xs-100 circular image-block" alt="placeholder image"/></div>

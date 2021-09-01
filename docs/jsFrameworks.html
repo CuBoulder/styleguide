@@ -1,17 +1,17 @@
 ---
-layout: default
+layout: bootstrap
 title: JS Frameworks
 section: jsFrameworks
 ---
 
 <h2>Using the Styleguide with <a href="#gatsby-usage">React</a> or <a href="#nuxt-usage"> Vue </a></h2>
 <p>
-    The styleguide can be used in modern JavaScript frameworks like React, Vue, and Angular. This documentation will cover how to 
-    integrate the it into Nuxt and Gatsby, however using it with other frameworks should have a similar approach. 
+    The styleguide can be used in modern JavaScript frameworks like React, Vue, and Angular. This documentation will cover how to
+    integrate the it into Nuxt and Gatsby, however using it with other frameworks should have a similar approach.
 </p>
 <p>
     Before you begin, add the  <strong> fontawesome npm package </strong>. You will need to include the  'faBars' and 'faHome' icons. Also, you will
-    need to downoad some CSS files. Place them where ever static files are served or with your other css. 
+    need to downoad some CSS files. Place them where ever static files are served or with your other css.
     <ul>
         <li> <a href="https://github.com/CuBoulder/styleguide/blob/master/css/elements/branding.css" target="_blank"> branding.css </a> </li>
         <li> <a href="https://github.com/CuBoulder/styleguide/blob/master/css/elements/grid.css" target="_blank" > grid.css </a> </li>
@@ -20,11 +20,11 @@ section: jsFrameworks
 </p>
 <h3 id="nuxt-usage"> Nuxt </h3>
 <p>
-    Nuxt is a static site generator for Vue. To add the styleguide, you should edit the <code>default.vue</code> template or create a new one. 
+    Nuxt is a static site generator for Vue. To add the styleguide, you should edit the <code>default.vue</code> template or create a new one.
     Additionally, you will have to add the CSS files and CDN links in the <code> nuxt.config.js </code> file.
 </p>
 <p>
-    A few things have changed in the markup. First, Nuxt uses the 'nuxt-link' tag for relative paths. This means 
+    A few things have changed in the markup. First, Nuxt uses the 'nuxt-link' tag for relative paths. This means
     that the main menu will most likely have to be changed to use them. Also, the branding is able to have
     a few color choices. In order to cahnge them, you will need to add all the correct classes to the tags. If you just want
     a complete template, you can copy and paste the markup below into your <code> default.vue </code> file.

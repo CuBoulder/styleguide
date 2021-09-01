@@ -1,0 +1,269 @@
+---
+layout: bootstrap
+title: Elements
+section: elements
+---
+<!-- CSS only -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<h2>Hero</h2>
+<p>Heros are a simple element that can serve as a main call to action to your site visitors.  The vertical size of the hero element is based on the amount of text included plus some additional padding. There are various display options for these that are detailed below. Background colors are handled by the different <a href="colors.html">background classes</a>.</p>
+<h3>Dark Gray Hero with Left Aligned Text</h3>
+<div class="code-example">
+<div class="simple-hero background-gray-dark">
+  <div class="simple-hero-content last-margin-none align-left">
+    <h4>This is the Title for the Hero</h4>
+    <p>Ac quis tempor Risus nostra cum accumsan integer. Eu ultricies donec laoreet imperdiet nam ornare. Gravida ipsum. Aliquet penatibus vel.</p>
+    <p><a href="#" class="button button-blue">This is the Button Text</a></p>
+  </div>
+</div>
+</div>
+<br />
+<h3>Dark Gray Hero with Right Aligned Text</h3>
+<div class="code-example">
+<div class="simple-hero background-gray-dark">
+  <div class="simple-hero-content last-margin-none align-right">
+    <h4>This is the Title for the Hero</h4>
+    <p>Ac quis tempor Risus nostra cum accumsan integer. Eu ultricies donec laoreet imperdiet nam ornare. Gravida ipsum. Aliquet penatibus vel.</p>
+    <p><a href="#" class="button button-blue">This is the Button Text</a></p>
+  </div>
+</div>
+</div>
+<br />
+<h3>Dark Gray Hero with Center Aligned Text</h3>
+<div class="code-example">
+<div class="simple-hero background-gray-dark">
+  <div class="simple-hero-content last-margin-none align-center">
+    <h4>This is the Title for the Hero</h4>
+    <p>Ac quis tempor Risus nostra cum accumsan integer. Eu ultricies donec laoreet imperdiet nam ornare. Gravida ipsum. Aliquet penatibus vel.</p>
+    <p><a href="#" class="button button-blue">This is the Button Text</a></p>
+  </div>
+</div>
+</div>
+<br />
+<h3>Hero with Background Image and Overlay</h3>
+<p>The overlay can be used on heros with background images to help make the text easier to read.</p>
+<div class="code-example">
+<div class="simple-hero background-black overlay-black" style="background-image:url(https://picsum.photos/id/1036/1600/900);">
+  <div class="simple-hero-content last-margin-none align-left">
+    <h4>This is the Title for the Hero</h4>
+    <p>Ac quis tempor Risus nostra cum accumsan integer. Eu ultricies donec laoreet imperdiet nam ornare. Gravida ipsum. Aliquet penatibus vel.</p>
+    <p><a href="#" class="button button-blue">This is the Button Text</a></p>
+  </div>
+</div>
+</div>
+<br />
+<h3>Hero with White Text, Background Image and Overlay</h3>
+<p>The text and overlay color of the hero can be changed by using the appropriate classes.</p>
+<div class="code-example">
+<div class="simple-hero background-white overlay-white" style="background-image:url(https://picsum.photos/id/1036/1600/900);">
+  <div class="simple-hero-content last-margin-none align-left">
+    <h4>This is the Title for the Hero</h4>
+    <p>Ac quis tempor Risus nostra cum accumsan integer. Eu ultricies donec laoreet imperdiet nam ornare. Gravida ipsum. Aliquet penatibus vel.</p>
+    <p><a href="#" class="button button-blue">This is the Button Text</a></p>
+  </div>
+</div>
+</div>
+<h3>Small Hero</h3>
+<p>A small hero style is available for using as site alerts or placing in smaller regions. This style reduces the padding of the element and does not increase the base font size.</p>
+<div class="code-example">
+<div class="simple-hero background-gray-light simple-hero-small">
+  <div class="simple-hero-content last-margin-none align-left">
+    <h4>This is the Title for the Hero</h4>
+    <p>Ac quis tempor Risus nostra cum accumsan integer. Eu ultricies donec laoreet imperdiet nam ornare. Gravida ipsum. Aliquet penatibus vel.</p>
+    <p><a href="#" class="button button-blue">This is the Button Text</a></p>
+  </div>
+</div>
+</div>
+<br />
+<h2>Accordions</h2>
+
+<div class="code-example">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Accordion Item #1
+        </button>
+      </h3>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h3>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Accordion Item #3
+        </button>
+      </h3>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+<h3>Always Open Accordion</h3>
+<div class="code-example">
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<h2>Tabs</h2>
+<div class="padding background-gray-dark">
+  <ul class="nav nav-tabs nav-tabs-light mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">One</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Two</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Three</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <p>Tab One.</p>
+      <p>This is some placeholder content the Contact tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <p>Tab Two.</p>
+      <p>This is some placeholder content the Contact tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+    </div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <p>Tab Three.</p>
+      <p>This is some placeholder content the Contact tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+    </div>
+  </div>
+</div>
+<h2>Cards</h2>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 equal-height">
+  <div class="col">
+    <div class="card">
+      <img src="https://picsum.photos/id/1036/1600/900" class="card-img-top" alt="...">
+      <div class="card-body padding">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://picsum.photos/id/1036/1600/900" class="card-img-top" alt="...">
+      <div class="card-body padding">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://picsum.photos/id/1036/1600/900" class="card-img-top" alt="...">
+      <div class="card-body padding">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://picsum.photos/id/1036/1600/900" class="card-img-top" alt="...">
+      <div class="card-body padding">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<h2>Shadow Cards</h2>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 equal-height">
+  <div class="col">
+    <div class="card background-white shadow-medium border-none">
+      <img src="https://picsum.photos/id/1036/1600/900" class="card-img-top" alt="...">
+      <div class="card-body padding">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card background-white shadow-medium border-none">
+      <img src="https://picsum.photos/id/1036/1600/900" class="card-img-top" alt="...">
+      <div class="card-body padding">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card background-white shadow-medium border-none">
+      <img src="https://picsum.photos/id/1036/1600/900" class="card-img-top" alt="...">
+      <div class="card-body padding">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card background-white shadow-medium border-none">
+      <img src="https://picsum.photos/id/1036/1600/900" class="card-img-top" alt="...">
+      <div class="card-body padding">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+        <p class="card-text text-align-right"><a href="#" class="button button-blue">Learn More</a></p>
+      </div>
+    </div>
+  </div>
+</div>

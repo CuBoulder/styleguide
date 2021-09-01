@@ -7,12 +7,15 @@
  */
 
 // Shadows
+
 $sizes: (
   "small" : 10px,
   "medium" : 20px,
   "large" : 40px,
 );
-
+.shadow {
+  @include rgbashadow(0, 0, 'medium', #000, .1);
+}
 @each $name, $size in $sizes {
   .shadow-#{$name} {
     @include rgbashadow(0, 0, $size, #000, .1);
@@ -115,10 +118,29 @@ $directions: (
 .border-right {
   border-right:1px solid $border;
 }
+.border-none {
+  border: none;
+}
+.border-top-none {
+  border-top: none;
+}
+.border-bottom-none {
+  border-bottom: none;
+}
+.border-left-none {
+  border-left: none;
+}
+.border-right-none {
+  border-right: none;
+}
 
 // Margins
 .margin-top {
   margin-top: $spacing;
+}
+
+.margin-top-auto {
+  margin-top: auto;
 }
 .margin-bottom {
   margin-bottom: $spacing;
@@ -188,19 +210,6 @@ $directions: (
   .margin-sm-#{$direction}-none,
   .margin-md-#{$direction}-none,
   .margin-lg-#{$direction}-none {
-    margin-#{$direction}: 0;
-  }
-  .margin-xs-#{$direction}-small-none,
-  .margin-sm-#{$direction}-small-none,
-  .margin-md-#{$direction}-small-none,
-  .margin-lg-#{$direction}-small-none {
-    margin-#{$direction}: 0;
-  }
-  .margin-xs-#{$direction}-large-none,
-  .margin-sm-#{$direction}-large-none,
-  .margin-md-#{$direction}-large-none,
-  .margin-lg-#{$direction}-large-none
-   {
     margin-#{$direction}: 0;
   }
 }
@@ -351,6 +360,12 @@ $directions: (
 .align-right {
   float: right;
 }
+.flex {
+  display: flex;
+}
+.align-vertical {
+  align-items:center;
+}
 
 // Text Sizing
 .text-magnify {
@@ -465,7 +480,9 @@ $directions: (
   background-size: cover;
   background-position: center center;
 }
-
+.background-fixed {
+  background-attachment: fixed;
+}
 // Overflow
 .overflow-hidden {
   overflow: hidden;
@@ -538,7 +555,9 @@ $directions: (
 .overlay-black,
 .overlay-white {
 	position:relative;
+  //background:none !important;
 }
+// Overlays use a psuedo element
 .overlay-black:before,
 .overlay-white:before {
 	content: " ";
@@ -550,7 +569,7 @@ $directions: (
 	z-index: 0;
 }
 .overlay-black:before {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.65);
 }
 .overlay-white:before {
   background-color: rgba(255,255,255,.65);
@@ -559,4 +578,13 @@ $directions: (
 .overlay-white > * {
 	z-index: 1;
 	position: relative;
+}
+// The blur works on chrome and safari
+.overlay-blur {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+// Removes background, which can be helpful when using background and overlay classes together.
+.background-none {
+  background:none !important;
 }

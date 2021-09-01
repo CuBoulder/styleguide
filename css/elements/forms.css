@@ -12,7 +12,7 @@ a:hover { color: #B71C1C; text-decoration-color: rgba(183, 28, 28, 0.65); -webki
 a:active { color: #B71C1C; text-decoration-color: rgba(183, 28, 28, 0.65); -webkit-text-decoration-color: rgba(183, 28, 28, 0.65); }
 
 /** Form styles */
-textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] { height: auto; }
+button, textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] { height: auto; }
 
 button, input[type="reset"], input[type="submit"], input[type="button"] { font-size: 100%; }
 

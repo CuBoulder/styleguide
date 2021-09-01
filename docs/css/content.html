@@ -1,11 +1,67 @@
 ---
 layout: default
-title: Components
-section: components
+title: Content
+section: content
 ---
+<h2>Typography</h2>
+<h3>Embedding Web Fonts</h3>
+<p>The official brand font is Helvetica Neue.  There is a cost associated with using Helvetica Neue as a web font. Subdomain websites can opt to use the secondary approved brand web font,  Roboto, which is free (website usage only). </p>
 
-<p>These are some reusable components that can be used in campus web projects.</p>
-<div class="page-anchors" data-anchorSelector=".page-content h2"></div>
+<p>Subdomain sites are encourage, but not required, to implement Roboto for their web font. Roboto is a free font maintained by Google and you can add the font to your site with the code below:</p>
+
+<div class="code-example invisible-xs">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700" rel="stylesheet">
+</div>
+<p>The CU Boulder styleguide CSS already includes the proper references to this webfont, but you can also define the fonts yourself with the following css:</p>
+<div class="code-example">
+font-family: 'Roboto', sans-serif;\r
+font-family: 'Roboto Condensed', sans-serif;
+</div>
+
+
+<h3>Headings</h3>
+<div class="content border padding margin-bottom">
+  <div class="code-example">
+    <h1>Heading Level 1</h1>
+  </div>
+  <div class="code-example">
+    <h2>Heading Level 2</h2>
+  </div>
+  <div class="code-example">
+    <h3>Heading Level 3</h3>
+  </div>
+  <div class="code-example">
+    <h4>Heading Level 4</h4>
+  </div>
+  <div class="code-example">
+    <h5>Heading Level 5</h5>
+  </div>
+  <div class="code-example">
+    <h6>Heading Level 6</h6>
+  </div>
+</div>
+<p>.h1 through .h6 classes are also available, for when you want to match the font styling of a heading but cannot use the associated HTML element.</p>
+<div class="code-example">
+  <h2 class="h5">This is an H2 heading with the .h5 class applied</h2>
+</div>
+
+<h3>Paragraphs</h3>
+<div class="code-example">
+  <p>This is a normal paragraph. On static pages, it's designed for readability and optimizing the number of characters per line. The font size is larger to account for longer chunks of text.</p>
+</div>
+<div class="code-example">
+  <p class="lead">This is a lead paragraph. It might be used as a longer-form tagline or subheading for a page or content section. It has a slightly larger font size and line-height.</p>
+</div>
+
+<div class="code-example">
+  <p class="hero">This is a hero paragraph. It might be used to get a user's attention.</p>
+</div>
+
+
+<div class="code-example">
+  <p class="supersize">This is a supersize paragraph. It might be used in infographics to drastically increase the font size.</p>
+</div>
+
 <h2>Buttons</h2>
 <p>Button color options include:</p>
 <ul class="list-style-linear-dots">
@@ -274,50 +330,4 @@ section: components
     <td>Purple</td>
   </tr>
 </table>
-</div>
-
-<h2>Overlays</h2>
-<h3>Black Overlay</h3>
-<p>Place your content over a semi-transparent black background.</p>
-<div class="code-example">
-<div class="padding-large background-image-cover" style="background-image:url(https://via.placeholder.com/1600x900);">
-  <div class="background-black overlay-black padding last-margin-none">
-    <h3>This is an Overlay</h3>
-    <p>Overlays are positioned on top of images and there are a few styles you can use to make sure the text is accessible.</p>
-  </div>
-</div>
-</div>
-
-<h3>White Overlay</h3>
-<p>Place your content over a semi-transparent white background.</p>
-<div class="code-example">
-<div class="padding-large background-image-cover" style="background-image:url(https://via.placeholder.com/1600x900);">
-  <div class="background-white overlay-white padding last-margin-none">
-    <h3>This is an Overlay</h3>
-    <p>Overlays are positioned on top of images and there are a few styles you can use to make sure the text is accessible.</p>
-  </div>
-</div>
-</div>
-
-<h3>Black Overlay with Blur</h3>
-<p>Place your content over a semi-transparent black background that blurs the image underneath (this may not work in all browsers).</p>
-<div class="code-example">
-<div class="padding-large background-image-cover" style="background-image:url(https://via.placeholder.com/1600x900);">
-  <div class="background-black overlay-black overlay-blur padding last-margin-none">
-    <h3>This is an Overlay</h3>
-    <p>Overlays are positioned on top of images and there are a few styles you can use to make sure the text is accessible.</p>
-  </div>
-</div>
-</div>
-
-<h3>White Overlay with Blur</h3>
-<p>Place your content over a semi-transparent white background that blurs the image underneath (this may not work in all browsers).</p>
-
-<div class="code-example">
-<div class="padding-large background-image-cover" style="background-image:url(https://via.placeholder.com/1600x900);">
-  <div class="background-white overlay-white overlay-blur padding last-margin-none">
-    <h3>This is an Overlay</h3>
-    <p>Overlays are positioned on top of images and there are a few styles you can use to make sure the text is accessible.</p>
-  </div>
-</div>
 </div>

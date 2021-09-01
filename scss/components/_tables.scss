@@ -71,14 +71,18 @@ div.table-small table {
 
 
 table.table-horizontal,
-div.table-horizontal table {
+div.table-horizontal table,
+table.table-rows,
+div.table-rows table {
   td {
     border-left:none;
     border-right:none;
   }
 }
 table.table-vertical,
-div.table-vertical table {
+div.table-vertical table,
+table.table-columns,
+div.table-columns table {
   td {
     border-top:none;
     border-bottom:none;
