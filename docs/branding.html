@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: bootstrap
 title: Branding
 section: branding
 ---
@@ -31,12 +31,8 @@ section: branding
 <div class="ucb-brand-bar ucb-brand-bar-black margin-bottom padding-small"><a href="https://www.colorado.edu" class="ucb-home-link"><img class="ucb-logo" src="https://cdn.colorado.edu/static/brand-assets/live/images/cu-boulder-logo-text-white.svg" alt="University of Colorado Boulder"></a><a class="ucb-search-link" href="https://www.colorado.edu/search"><img class="ucb-search" alt="search" src="https://cdn.colorado.edu/static/brand-assets/live/images/search-white.svg"></a></div>
 
 <div class="ucb-brand-bar ucb-brand-bar-white margin-bottom border padding-small"><a href="https://www.colorado.edu" class="ucb-home-link"><img class="ucb-logo" src="https://cdn.colorado.edu/static/brand-assets/live/images/cu-boulder-logo-text-black.svg" alt="University of Colorado Boulder"></a><a class="ucb-search-link" href="https://www.colorado.edu/search"><img class="ucb-search" alt="search" src="https://cdn.colorado.edu/static/brand-assets/live/images/search-black.svg"></a></div>
-<h3 class="type-size"><i class="fa fa-code" aria-hidden="true"></i> HTML</h3>
-<pre>
-  <code>
-    &lt;script type="text/javascript" src="https://cdn.colorado.edu/static/brand-assets/live/js/brand-bar.js" id="ucb-brand-bar-embed" data-color="black"&gt;&lt;/script&gt;
-  </code>
-</pre>
+
+<div class="code-example-code"> <button class="copy-code"><i class="fas fa-copy"></i> Copy</button><figure>&lt;script type="text/javascript" src="https://cdn.colorado.edu/static/brand-assets/live/js/brand-bar.js" id="ucb-brand-bar-embed" data-color="black"&gt;&lt;/script&gt;</figure></div>
 
 <h2>Site Name Header</h2>
 <p>The website's name is located directly below the campus brand bar. The color of the bar can be set by changing the class on the header element.  Allowed values are 'white', 'light', 'dark', and 'black'.</p>
@@ -98,3 +94,17 @@ To make the header display properly, you should include either the <a href="http
     &lt;script type="text/javascript" src="https://cdn.colorado.edu/static/brand-assets/live/js/footer.js" id="ucb-footer-embed" data-color="white"&gt;&lt;/script&gt;
   </code>
 </pre>
+<h2>Brand Font</h2>
+<h3>Embedding Web Fonts</h3>
+<p>The official brand font is Helvetica Neue.  There is a cost associated with using Helvetica Neue as a web font. Subdomain websites can opt to use the secondary approved brand web font,  Roboto, which is free (website usage only). </p>
+
+<p>Subdomain sites are encouraged, but not required, to implement Roboto for their web font. Roboto is a free font maintained by Google and you can add the font to your site with the code below:</p>
+
+<div class="code-example invisible-xs">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700" rel="stylesheet">
+</div>
+<p>The CU Boulder styleguide CSS already includes the proper references to this webfont, but you can also define the fonts yourself with the following css:</p>
+<div class="code-example">
+font-family: 'Roboto', sans-serif;\r
+font-family: 'Roboto Condensed', sans-serif;
+</div>

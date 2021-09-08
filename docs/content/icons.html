@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: bootstrap
 title: Icons
-section: icons
+section: content
 ---
 
 <h2>Adding Icons</h2>
@@ -23,9 +23,12 @@ section: icons
 </div>
 <h3>Usage</h3>
 <p>To use the icon colors, just apply the icon color class to the icon. The icon will be the same color as the text for the element if no color is defined.  For example, if the background of the element is back, the text color would be white and the default icon color would be white.</p>
-{% for icon-colors in site.data.icon-colors %}
-<h4 class="text-capitalize">{{ icon-colors.color }}</h4>
-<div class="code-example">
-    <i class="fas fa-stroopwafel fa-3x {{ icon-colors.class }}"></i>
+
+<div class="padding background-gray-light">
+  {% for icon-colors in site.data.icon-colors %}
+  <h4 class="text-capitalize">{{ icon-colors.color }}</h4>
+  <div class="code-example">
+      <i class="fas fa-comment fa-3x {{ icon-colors.class }}"></i>
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}

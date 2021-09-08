@@ -1,0 +1,73 @@
+---
+layout: bootstrap
+title: Content Sections
+menutitle: Sections
+section: components
+---
+<p>Content sections are similar to heroes - content placed over a background color or photo - except the content and layout of the information is more complex.</p>
+<p>These elements can be placed within the content area, or outside of them to add an <a href="sections-wide.html">edge-to-edge design</a>.</p>
+<div class="code-example">
+<div id="section-demo-1" class="content-section background-gray-dark padding-large" style="background-image:url(https://picsum.photos/id/1036/1600/900);">
+  <div class="container">
+  <div class="last-margin-none background-black overlay-black background-none padding overlay-blur section-contents">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center">
+        <h2>This is a Content Section</h2>
+        <p>This is some placeholder content the Contact tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center">
+        <h2>This is a Content Section</h2>
+        <p>This is some placeholder content the Contact tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+<br />
+<h2>Fixed Background</h2>
+<p>By using the <code>.background-fixed</code> class on your content section element, you can have the background image remain in a fixed position even while the page is being scrolled.</p>
+<p>Using this class changes how the image is attached to the background and it might appear to be a different size than a background image that is not fixed.</p>
+<p>This example also includes some additional CSS to position the content within the section depending on the size of the viewport.</p>
+<div class="code-example">
+<div id="section-demo-2" class="content-section background-gray-dark background-fixed" style="background-image:url(https://picsum.photos/id/1036/1600/900);">
+  <div class="container">
+    <div class="last-margin-none background-black overlay-black background-none padding overlay-blur section-contents">
+      <h2>This is a Content Section</h2>
+      <p>This is some placeholder content the Contact tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+    </div>
+  </div>
+</div>
+<style>
+@media screen and (min-width: 768px) {
+  #section-demo-2 .section-contents { margin-right:33%;}
+}
+@media screen and (min-width: 960px) {
+  #section-demo-2 .section-contents { margin-right:50%;}
+}
+@media screen and (min-width: 1200px) {
+  #section-demo-2 .section-contents { margin-right:66%;}
+}
+</style>
+</div>
+<br />
+<h2>Overlay</h2>
+<p>A content section can also have an overlay over the entire photo to help with readability.</p>
+<div class="code-example">
+<div id="section-demo-3" class="content-section background-gray-dark padding-large background-black overlay-black" style="background-image:url(https://picsum.photos/id/1036/1600/900);">
+  <div class="container">
+    <div class="last-margin-none   padding  section-contents">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center">
+          <h2>This is a Content Section</h2>
+          <p>This is some placeholder content the Contact tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-align-center">
+          <h2>This is a Content Section</h2>
+          <p>This is some placeholder content the Contact tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

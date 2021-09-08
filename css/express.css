@@ -431,6 +431,45 @@ hr { margin: 0 0 20px 0; padding: 0; border: none; height: 1px; background: rgba
 .anchors .anchors-label { font-weight: bold; background-color: #424242; color: #fff; padding: 10px; }
 .anchors .anchors-links { padding: 0 10px 10px 10px; }
 
+.simple-hero { background-position: center center; background-size: cover; padding: 40px; }
+@media (min-width: 768px) { .simple-hero { padding-top: 80px; padding-bottom: 80px; padding-left: 40px; padding-right: 40px; } }
+@media (min-width: 992px) { .simple-hero { padding-top: 120px; padding-bottom: 120px; padding-left: 60px; padding-right: 60px; } }
+.simple-hero.simple-hero-small { padding: 20px; }
+.simple-hero.simple-hero-small .simple-hero-content { font-size: 100%; }
+@media (min-width: 768px) { .simple-hero .simple-hero-content { font-size: 120%; } }
+.simple-hero .simple-hero-content h1, .simple-hero .simple-hero-content h2, .simple-hero .simple-hero-content h3, .simple-hero .simple-hero-content h4 { font-size: 150%; font-weight: bold; }
+@media (min-width: 768px) { .simple-hero .simple-hero-content h1, .simple-hero .simple-hero-content h2, .simple-hero .simple-hero-content h3, .simple-hero .simple-hero-content h4 { font-size: 180%; } }
+.simple-hero .simple-hero-content.align-left { float: none; text-align: left; }
+@media (min-width: 768px) { .simple-hero .simple-hero-content.align-left { padding-right: 35%; } }
+.simple-hero .simple-hero-content.align-right { float: none; text-align: right; }
+@media (min-width: 768px) { .simple-hero .simple-hero-content.align-right { padding-left: 35%; } }
+.simple-hero .simple-hero-content.align-center { float: none; text-align: center; }
+@media (min-width: 768px) { .simple-hero .simple-hero-content.align-center { padding: 0 20%; } }
+
+.content-section { background-position: center center; background-size: cover; padding: 40px 0; }
+@media (min-width: 768px) { .content-section { padding-top: 80px; padding-bottom: 80px; } }
+@media (min-width: 992px) { .content-section { padding-top: 120px; padding-bottom: 120px; } }
+
+.accordion { background: none; border: none; }
+.accordion .accordion-item { background: none; border: none; border-bottom: 1px solid rgba(128, 128, 128, 0.333); padding: 10px 0; }
+.accordion .accordion-item > h2, .accordion .accordion-item > h3, .accordion .accordion-item > h4 { font-size: 100%; margin: 0; }
+.accordion .accordion-item button.accordion-button { color: inherit; padding: 0; background: none; border: none; font-weight: bold; font-size: 100%; position: relative; display: flex; align-items: center; width: 100%; }
+.accordion .accordion-item button.accordion-button:after { background: none; font-family: "Font Awesome 5 Free"; content: '\f077'; text-align: center; }
+.accordion .accordion-item button.accordion-button:not(.collapsed) { color: inherit; background: none; box-shadow: none; }
+.accordion .accordion-item .accordion-body { padding: 10px 0 0 20px; border: none; }
+
+.nav-tabs { border-bottom: 2px solid #000; color: inherit; }
+.nav-tabs button.nav-link { color: inherit; border-radius: 0; border: none; }
+.nav-tabs button.nav-link.active { background-color: #000; border: none; color: #fff; }
+.nav-tabs.nav-tabs-light { border-bottom: 2px solid #fff; }
+.nav-tabs.nav-tabs-light button.nav-link.active { background-color: #fff; color: #000; }
+
+.card, .card-img, .card-img-top { border-radius: 0; }
+
+.card { border: 1px solid rgba(128, 128, 128, 0.333); }
+.card.border-none { border: none; }
+.card .card-body { display: flex; flex-direction: column; }
+
 /** Content styles */
 .teaser { border-bottom: 1px solid rgba(128, 128, 128, 0.333); margin-bottom: 20px; padding-bottom: 20px; }
 .teaser .teaser-content { overflow: hidden; }

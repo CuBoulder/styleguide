@@ -6,18 +6,21 @@
 
 .code-example-code {
   position: relative;
-  padding:20px;
+  padding:10px 20px;
   background:#f4f4f4;
   color:#656565;
   margin-bottom: 10px;
+  text-align: right;
+  clear: both;
 }
+button.view-code,
 button.copy-code {
   border:0;
   background: 0;
   text-transform: uppercase;
   font-size: 65%;
   font-weight: bold;
-  position: absolute;
+  positionq: absolute;
   top:5px;
   right:5px;
   z-index: 1;
@@ -26,8 +29,32 @@ button.copy-code {
 button.copy-code + figure {
   font-size: 85%;
   white-space: pre-wrap;
+  text-align: left;
 
 }
 .hljs {
   padding: 0;
+}
+
+.page-anchors {
+  margin-bottom: 20px;
+}
+.page-anchors ul,
+.page-anchors ul li {
+  list-style:none;
+  list-style-image: none;
+  margin:0;
+  padding:0;
+}
+.page-anchors ul {
+  margin:0 -5px;
+}
+.page-anchors ul li {
+  display: inline;
+  padding: 0 5px;
+}
+
+code {
+  color:inherit;
+  font-weight: bold;
 }
