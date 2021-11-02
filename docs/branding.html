@@ -16,15 +16,15 @@ section: branding
 
 <p>The CU Boulder web brand identity standards comprise of four key areas:</p>
 <ul>
-  <li>Header elements</li>
-  <li>Footer elements</li>
-  <li><a href="typography.html">Web font</a></li>
+  <li><a href="#header">Header elements</a></li>
+  <li><a href="#footer">Footer elements</li>
+  <li><a href="#fonts">>Web font</a></li>
   <li><a href="colors.html">Color pallette</a></li>
 </ul>
 
 
 <p>The University of Colorado and <a href="https://www.colorado.edu/brand">CU Boulder brand guidelines</a> require that official websites be branded properly. To make branding a website easier, the following embeds are available for some of the required elements:</p>
-
+<a name="header"></a>
 <h2>Campus header</h2>
 <p>The campus header adds the campus name and search link. The brand bar color can be either black or white by changing the data-color value.</p>
 
@@ -83,7 +83,7 @@ To make the header display properly, you should include either the <a href="http
 </header>
 </div>
 
-
+<a name="footer"></a>
 <h2>Be Boulder/Campus Footer</h2>
 <p>The Be Boulder/Campus footer adds the Be Boulder images, a link to the campus website, the regent copyright information and the required links. The color of the Be Boulder image can be either black or white by changing the data-color value.</p>
 
@@ -94,14 +94,15 @@ To make the header display properly, you should include either the <a href="http
     &lt;script type="text/javascript" src="https://cdn.colorado.edu/static/brand-assets/live/js/footer.js" id="ucb-footer-embed" data-color="white"&gt;&lt;/script&gt;
   </code>
 </pre>
-<h2>Brand Font</h2>
+<h2>Web Fonts</h2>
 <h3>Embedding Web Fonts</h3>
-<p>The official brand font is Helvetica Neue.  There is a cost associated with using Helvetica Neue as a web font. Subdomain websites can opt to use the secondary approved brand web font,  Roboto, which is free (website usage only). </p>
 
 <p>Subdomain sites are encouraged, but not required, to implement Roboto for their web font. Roboto is a free font maintained by Google and you can add the font to your site with the code below:</p>
 
 <div class="code-example invisible-xs">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </div>
 <p>The CU Boulder styleguide CSS already includes the proper references to this webfont, but you can also define the fonts yourself with the following css:</p>
 <div class="code-example">
