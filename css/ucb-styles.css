@@ -6255,22 +6255,22 @@ nav ol.breadcrumbs li:last-child:after {
   color: #cfb87c !important;
 }
 
-.background-color-a11ygold {
+.background-color-a11y-gold {
   background-color: #8D7334;
 }
-.background-color-a11ygold.color-border {
+.background-color-a11y-gold.color-border {
   border: 1px solid rgba(66, 54, 25, 0.4);
 }
 
-.background-a11ygold,
-*[class*=background-] .cu-box.background-a11ygold,
-*[class*=background-] .background-a11ygold,
-*[class*=background-] *[class*=background-] .background-a11ygold,
-*[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold {
+.background-a11y-gold,
+*[class*=background-] .cu-box.background-a11y-gold,
+*[class*=background-] .background-a11y-gold,
+*[class*=background-] *[class*=background-] .background-a11y-gold,
+*[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold {
   background-color: #8D7334;
   color: #fff;
   /*
@@ -6308,110 +6308,110 @@ nav ol.breadcrumbs li:last-child:after {
   }
   */
 }
-.background-a11ygold a:link,
-.background-a11ygold a:visited,
-*[class*=background-] .cu-box.background-a11ygold a:link,
-*[class*=background-] .cu-box.background-a11ygold a:visited,
-*[class*=background-] .background-a11ygold a:link,
-*[class*=background-] .background-a11ygold a:visited,
-*[class*=background-] *[class*=background-] .background-a11ygold a:link,
-*[class*=background-] *[class*=background-] .background-a11ygold a:visited,
-*[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:link,
-*[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:visited,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:link,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:visited,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:link,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:visited,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:link,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:visited,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:link,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:visited {
+.background-a11y-gold a:link,
+.background-a11y-gold a:visited,
+*[class*=background-] .cu-box.background-a11y-gold a:link,
+*[class*=background-] .cu-box.background-a11y-gold a:visited,
+*[class*=background-] .background-a11y-gold a:link,
+*[class*=background-] .background-a11y-gold a:visited,
+*[class*=background-] *[class*=background-] .background-a11y-gold a:link,
+*[class*=background-] *[class*=background-] .background-a11y-gold a:visited,
+*[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:link,
+*[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:visited,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:link,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:visited,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:link,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:visited,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:link,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:visited,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:link,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:visited {
   color: #fff;
   text-decoration: underline;
   text-decoration-color: rgba(221, 221, 221, 0.65);
   -webkit-text-decoration-color: rgba(221, 221, 221, 0.65);
 }
-.background-a11ygold a:hover,
-.background-a11ygold a:active,
-.background-a11ygold a:focus,
-*[class*=background-] .cu-box.background-a11ygold a:hover,
-*[class*=background-] .cu-box.background-a11ygold a:active,
-*[class*=background-] .cu-box.background-a11ygold a:focus,
-*[class*=background-] .background-a11ygold a:hover,
-*[class*=background-] .background-a11ygold a:active,
-*[class*=background-] .background-a11ygold a:focus,
-*[class*=background-] *[class*=background-] .background-a11ygold a:hover,
-*[class*=background-] *[class*=background-] .background-a11ygold a:active,
-*[class*=background-] *[class*=background-] .background-a11ygold a:focus,
-*[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:hover,
-*[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:active,
-*[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:focus,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:hover,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:active,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:focus,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:hover,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:active,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:focus,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:hover,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:active,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:focus,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:hover,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:active,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a:focus {
+.background-a11y-gold a:hover,
+.background-a11y-gold a:active,
+.background-a11y-gold a:focus,
+*[class*=background-] .cu-box.background-a11y-gold a:hover,
+*[class*=background-] .cu-box.background-a11y-gold a:active,
+*[class*=background-] .cu-box.background-a11y-gold a:focus,
+*[class*=background-] .background-a11y-gold a:hover,
+*[class*=background-] .background-a11y-gold a:active,
+*[class*=background-] .background-a11y-gold a:focus,
+*[class*=background-] *[class*=background-] .background-a11y-gold a:hover,
+*[class*=background-] *[class*=background-] .background-a11y-gold a:active,
+*[class*=background-] *[class*=background-] .background-a11y-gold a:focus,
+*[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:hover,
+*[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:active,
+*[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:focus,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:hover,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:active,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:focus,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:hover,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:active,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:focus,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:hover,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:active,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:focus,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:hover,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:active,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a:focus {
   color: #fff;
   text-decoration-color: #dddddd;
   -webkit-text-decoration-color: #dddddd;
 }
-.background-a11ygold.color-border,
-*[class*=background-] .cu-box.background-a11ygold.color-border,
-*[class*=background-] .background-a11ygold.color-border,
-*[class*=background-] *[class*=background-] .background-a11ygold.color-border,
-*[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold.color-border,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold.color-border,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold.color-border,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold.color-border,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold.color-border {
+.background-a11y-gold.color-border,
+*[class*=background-] .cu-box.background-a11y-gold.color-border,
+*[class*=background-] .background-a11y-gold.color-border,
+*[class*=background-] *[class*=background-] .background-a11y-gold.color-border,
+*[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold.color-border,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold.color-border,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold.color-border,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold.color-border,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold.color-border {
   border: 1px solid rgba(66, 54, 25, 0.4);
 }
-.background-a11ygold a.button-ghost,
-*[class*=background-] .cu-box.background-a11ygold a.button-ghost,
-*[class*=background-] .background-a11ygold a.button-ghost,
-*[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost,
-*[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost {
+.background-a11y-gold a.button-ghost,
+*[class*=background-] .cu-box.background-a11y-gold a.button-ghost,
+*[class*=background-] .background-a11y-gold a.button-ghost,
+*[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost,
+*[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost {
   color: #fff !important;
   border: 1px solid #fff;
   background: rgba(0, 0, 0, 0.15);
 }
-.background-a11ygold a.button-ghost:hover,
-*[class*=background-] .cu-box.background-a11ygold a.button-ghost:hover,
-*[class*=background-] .background-a11ygold a.button-ghost:hover,
-*[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost:hover,
-*[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost:hover,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost:hover,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost:hover,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost:hover,
-*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11ygold a.button-ghost:hover {
+.background-a11y-gold a.button-ghost:hover,
+*[class*=background-] .cu-box.background-a11y-gold a.button-ghost:hover,
+*[class*=background-] .background-a11y-gold a.button-ghost:hover,
+*[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost:hover,
+*[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost:hover,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost:hover,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost:hover,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost:hover,
+*[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-a11y-gold a.button-ghost:hover {
   color: black !important;
   background: #fff;
 }
 
-.exbd-block.background-a11ygold {
+.exbd-block.background-a11y-gold {
   padding: 10px;
 }
 @media screen and (min-width: 960px) {
-  .exbd-block.background-a11ygold {
+  .exbd-block.background-a11y-gold {
     padding: 20px;
   }
 }
-.exbd-block.background-a11ygold > *:last-child {
+.exbd-block.background-a11y-gold > *:last-child {
   margin-bottom: 0;
 }
 
-.text-a11ygold {
+.text-a11y-gold {
   color: #8D7334 !important;
 }
 

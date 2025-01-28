@@ -10,6 +10,12 @@
   hex: '#cfb87c'
   type: brand
 
+- color: Accessible Gold
+  class: background-a11y-gold
+  color-only-class: background-color-a11y-gold
+  hex: '#8D7334'
+  type: brand
+
 - color: White
   class: background-white
   color-only-class: background-color-white
