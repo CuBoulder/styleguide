@@ -1,6 +1,6 @@
-@import "modules/global";
-@import "modules/colors";
-@import "modules/functions";
+@use "../modules/_global.scss" as *;
+@use "../modules/_colors.scss" as *;
+@use "../modules/_functions.scss" as *;
 
 /**
  * Button styles
@@ -48,7 +48,7 @@ a.button-ghost,
    @if ($color == $gold) {
      background-color:$gold-gray;
    }
-   @elseif ($color == #000) {
+   @else if ($color == #000) {
      background-color: scale-color($color, $lightness: 20%);
    }
    @include rgbashadow(0, 2px, 5px, #000000, .30);

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,uBAAuB;AACvB,sBAAsB;AACtB,0BAA0B;AAC1B,yBAAyB;AACzB,uBAAuB;AACvB,wBAAwB;AACxB,8BAA8B;AAC9B,uBAAuB;AACvB,wBAAwB;AACxB,uBAAuB;AACvB,sBAAsB;AACtB,0BAA0B;AAC1B,wBAAwB;AACxB,yBAAyB;AACzB,wBAAwB;AACxB,sBAAsB;AACtB,wBAAwB;AACxB,uBAAuB;AACvB,sBAAsB;AACtB,qBAAqB;AACrB,wBAAwB;AACxB,yBAAyB;AACzB,wBAAwB;AACxB,yBAAyB",
+"sources": ["ucb.scss"],
+"names": [],
+"file": "ucb.css"
+}

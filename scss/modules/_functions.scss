@@ -1,4 +1,5 @@
-@import "modules/colors";
+@use "../modules/_colors.scss" as c;
+
 
 //
 // Functions
@@ -13,9 +14,9 @@
   $g: green($color);
   $b: blue($color);
 
-  $yiq: (($r*299) + ($g*587) + ($b*114))/1000;
+  $yiq: calc((($r*299) + ($g*587) + ($b*114))/1000);
   @if ($yiq >= 128) {
-    @return $text-black; // Lighter backgorund, return dark color
+    @return c.$text-black; // Lighter backgorund, return dark color
   } @else {
     @return #fff; // Darker background, return light color
   }
@@ -26,9 +27,9 @@
   $g: green($color);
   $b: blue($color);
 
-  $yiq: (($r*299) + ($g*587) + ($b*114))/1000;
+  $yiq: calc((($r*299) + ($g*587) + ($b*114))/1000);
   @if ($yiq >= 128) {
-    @return lighten($text-black, 20); // Lighter backgorund, return dark color
+    @return lighten(c.$text-black, 20); // Lighter backgorund, return dark color
   } @else {
     @return darken(#fff, 20); // Darker background, return light color
   }
@@ -39,19 +40,19 @@
   $g: green($color);
   $b: blue($color);
 
-  $yiq: (($r*299) + ($g*587) + ($b*114))/1000;
+  $yiq: calc((($r*299) + ($g*587) + ($b*114))/1000);
 
-  @if ($color == $cugold) {
+  @if ($color == c.$cugold) {
     @return #444;
   }
   @else if (lightness($color) == 100%) {
-    @return $blue;
+    @return c.$blue;
   }
   @else if ($yiq >= 220) {
-    @return $blue-dark;
+    @return c.$blue-dark;
   }
   @else if ($yiq >= 128) {
-    @return darken($blue-contrast, 5); // Lighter backgorund, return dark color
+    @return darken(c.$blue-contrast, 5); // Lighter backgorund, return dark color
   }
   // Color is probably dark at this point.
   // Return gold if image has no color/saturation = 0
@@ -61,7 +62,7 @@
       @return #ddd;
     }
     @else {
-      @return $gold; // Darker background, return light color
+      @return c.$gold; // Darker background, return light color
     }
   }
 }
@@ -71,19 +72,19 @@
   $g: green($color);
   $b: blue($color);
 
-  $yiq: (($r*299) + ($g*587) + ($b*114))/1000;
+  $yiq: calc((($r*299) + ($g*587) + ($b*114))/1000);
 
-  @if ($color == $cugold) {
-    @return $black;
+  @if ($color == c.$cugold) {
+    @return c.$black;
   }
   @else if (lightness($color) == 100%) {
-    @return $red;
+    @return c.$red;
   }
   @else if ($yiq >= 220) {
-    @return $red;
+    @return c.$red;
   }
   @else if ($yiq >= 128) {
-    @return darken($red, 5); // Lighter backgorund, return dark color
+    @return darken(c.$red, 5); // Lighter backgorund, return dark color
   } @else {
     @return #fff; // Darker background, return light color
   }

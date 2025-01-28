@@ -8,24 +8,23 @@ $white: #fff;
 $black: #000;
 $text-black: #111111;
 $gray-dark:#424242;
-$gray-light:#EEEEEE;
+$gray-light:#eeeeee;
 $gray: $gray-light;
-
-
 
 // Brand
 $cugold: #cfb87c;
 $gold: $cugold;
 $gold-gray: #a6a6a6;
+$a11y-gold:#8D7334;
 
 // Links
-$blue: #0277BD;
+$blue: #467aaf;
 $blue-contrast: darken($blue, 10);
 
 // Secondary
 $blue-dark: #01579B;
-$blue-medium:#4FC3F7;
-$blue-light:#E1F5FE;
+$blue-medium:#6699c0;
+$blue-light:#b2cfde;
 $gold-light:lighten($cugold, 25%);
 $green-light:#DCEDC8;
 $brick: #ae5a39;
@@ -43,8 +42,8 @@ $orange: #FF9800;
 $brick: #ae5a39;
 
 // Utility
-$border:#e0e0e0;
-$border: rgba(128,128,128,.333);
+$border:#a0a3a2;
+//$border: rgba(128,128,128,.333);
 
 $all_colors: (
 
@@ -70,6 +69,7 @@ $all_colors: (
 
 $brand: (
   "gold" : $gold,
+  "a11ygold" : $a11y-gold,
 );
 $neutrals: (
 

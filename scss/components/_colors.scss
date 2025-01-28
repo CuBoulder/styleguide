@@ -1,6 +1,6 @@
-@import "modules/global";
-@import "modules/colors";
-@import "modules/functions";
+@use "../modules/_global.scss" as *;
+@use "../modules/_colors.scss" as *;
+@use "../modules/_functions.scss" as *;
 
 /**
  * Color styles

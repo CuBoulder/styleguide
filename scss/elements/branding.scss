@@ -1,2 +1,1 @@
-@import "../components/global";
-@import "../components/branding";
+@use "../components/_branding.scss" as *;

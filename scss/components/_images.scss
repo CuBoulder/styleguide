@@ -1,6 +1,6 @@
-@import "modules/global";
-@import "modules/colors";
-@import "modules/functions";
+@use "../modules/_global.scss" as *;
+@use "../modules/_colors.scss" as *;
+@use "../modules/_functions.scss" as *;
 
 /**
  * Image styles
@@ -91,11 +91,11 @@ img.image-inline {
 }
 .image-align-left-small {
   float:left;
-  margin: 0 $spacing/2 $spacing/2 0;
+  margin: 0 calc($spacing/2) calc($spacing/2) 0;
 }
 .image-align-right-small {
   float:right;
-  margin: 0 0 $spacing/2 $spacing/2;
+  margin: 0 0 calc($spacing/2) calc($spacing/2);
 }
 @each $breakpoint, $value in $breakpoints {
   img.image-#{$breakpoint}-align-left,
@@ -119,11 +119,11 @@ img.image-inline {
     }
     img.image-#{$breakpoint}-align-left-small {
       float:left;
-      margin: 0 $spacing/2 $spacing/2 0;
+      margin: 0 calc($spacing/2) calc($spacing/2) 0;
     }
     img.image-#{$breakpoint}-align-right-small {
       float:right;
-      margin: 0 0 $spacing/2 $spacing/2;
+      margin: 0 0 calc($spacing/2) calc($spacing/2);
     }
     img.image-#{$breakpoint}-align-none {
       float: none;

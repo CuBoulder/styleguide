@@ -1,29 +1,26 @@
 const { src, dest, watch, series } = require('gulp');
 var gulp = require('gulp');
-var compass = require('gulp-compass');
+const sass = require('gulp-sass')(require('sass'));
 
-// Compile SCSS files
-function scss(cb) {
-  cb();
-  // Look in scss directory, compile to css
-  return gulp.src(['scss/**/*.scss'])
-		.pipe(compass({
-			css: 'css',
-			sass: 'scss',
-		}))
-		.pipe(gulp.dest('css'));
-}
 
-// Copy compiled css files to docs directory for site
-function css(cb) {
-  cb();
-  return src('css/**/*.css')
+function buildStyles() {
+  return gulp.src('./scss/**/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./css'));
+};
+
+function copyCSS() {
+  return gulp.src('./css/**/*.css')
     .pipe(dest('docs/css/'));
 }
 
-exports.default = function() {
-  // Watch scss directory for changes
-  watch('scss/**/*.scss', scss);
-  // Watch css directory for changes
-  watch('css/**/*.css', css);
-}
+
+
+exports.buildStyles = buildStyles;
+exports.copyCSS = copyCSS;
+exports.default = function () {
+  gulp.watch('./scss/**/*.scss', gulp.series('buildStyles'));
+  gulp.watch('./css/**/*.css', gulp.series('copyCSS'));
+};
+
+
