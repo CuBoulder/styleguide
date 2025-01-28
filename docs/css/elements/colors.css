@@ -696,7 +696,7 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-white a:visited,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-white a:link,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-white a:visited {
-  color: #467aaf;
+  color: #0277BD;
   text-decoration: none;
 }
 .background-white a:hover,
@@ -852,7 +852,7 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-light a:visited,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-light a:link,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-light a:visited {
-  color: #305478;
+  color: #014771;
   text-decoration: none;
 }
 .background-blue-light a:hover,
@@ -1406,10 +1406,10 @@
 }
 
 .background-color-blue {
-  background-color: #467aaf;
+  background-color: #0277BD;
 }
 .background-color-blue.color-border {
-  border: 1px solid rgba(41, 71, 102, 0.4);
+  border: 1px solid rgba(1, 55, 88, 0.4);
 }
 
 .background-blue,
@@ -1421,7 +1421,7 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff;
   /*
   a.link-text-color {
@@ -1521,7 +1521,7 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue.color-border,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue.color-border,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue.color-border {
-  border: 1px solid rgba(41, 71, 102, 0.4);
+  border: 1px solid rgba(1, 55, 88, 0.4);
 }
 .background-blue a.button-ghost,
 *[class*=background-] .cu-box.background-blue a.button-ghost,
@@ -1562,14 +1562,14 @@
 }
 
 .text-blue {
-  color: #467aaf !important;
+  color: #0277BD !important;
 }
 
 .background-color-blue-medium {
-  background-color: #6699c0;
+  background-color: #4FC3F7;
 }
 .background-color-blue-medium.color-border {
-  border: 1px solid rgba(56, 101, 136, 0.4);
+  border: 1px solid rgba(10, 151, 214, 0.4);
 }
 
 .background-blue-medium,
@@ -1581,7 +1581,7 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-medium,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-medium,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-medium {
-  background-color: #6699c0;
+  background-color: #4FC3F7;
   color: #111111;
   /*
   a.link-text-color {
@@ -1638,8 +1638,8 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-medium a:visited {
   color: #111111;
   text-decoration: underline;
-  text-decoration-color: rgba(48, 84, 120, 0.65);
-  -webkit-text-decoration-color: rgba(48, 84, 120, 0.65);
+  text-decoration-color: rgba(1, 71, 113, 0.65);
+  -webkit-text-decoration-color: rgba(1, 71, 113, 0.65);
 }
 .background-blue-medium a:hover,
 .background-blue-medium a:active,
@@ -1669,8 +1669,8 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-medium a:active,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-medium a:focus {
   color: #111111;
-  text-decoration-color: #305478;
-  -webkit-text-decoration-color: #305478;
+  text-decoration-color: #014771;
+  -webkit-text-decoration-color: #014771;
 }
 .background-blue-medium.color-border,
 *[class*=background-] .cu-box.background-blue-medium.color-border,
@@ -1681,7 +1681,7 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-medium.color-border,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-medium.color-border,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-blue-medium.color-border {
-  border: 1px solid rgba(56, 101, 136, 0.4);
+  border: 1px solid rgba(10, 151, 214, 0.4);
 }
 .background-blue-medium a.button-ghost,
 *[class*=background-] .cu-box.background-blue-medium a.button-ghost,
@@ -1722,7 +1722,7 @@
 }
 
 .text-blue-medium {
-  color: #6699c0 !important;
+  color: #4FC3F7 !important;
 }
 
 .background-color-blue-dark {
@@ -2438,8 +2438,8 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-amber a:visited {
   color: #111111;
   text-decoration: underline;
-  text-decoration-color: rgba(48, 84, 120, 0.65);
-  -webkit-text-decoration-color: rgba(48, 84, 120, 0.65);
+  text-decoration-color: rgba(1, 71, 113, 0.65);
+  -webkit-text-decoration-color: rgba(1, 71, 113, 0.65);
 }
 .background-amber a:hover,
 .background-amber a:active,
@@ -2469,8 +2469,8 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-amber a:active,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-amber a:focus {
   color: #111111;
-  text-decoration-color: #305478;
-  -webkit-text-decoration-color: #305478;
+  text-decoration-color: #014771;
+  -webkit-text-decoration-color: #014771;
 }
 .background-amber.color-border,
 *[class*=background-] .cu-box.background-amber.color-border,
@@ -3244,7 +3244,7 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-200 a:visited,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-200 a:link,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-200 a:visited {
-  color: #305478;
+  color: #014771;
 }
 .background-gray-200 a:hover,
 .background-gray-200 a:active,
@@ -3304,7 +3304,7 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-300 a:visited,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-300 a:link,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-300 a:visited {
-  color: #305478;
+  color: #014771;
 }
 .background-gray-300 a:hover,
 .background-gray-300 a:active,
@@ -3364,7 +3364,7 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-400 a:visited,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-400 a:link,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-400 a:visited {
-  color: #305478;
+  color: #014771;
 }
 .background-gray-400 a:hover,
 .background-gray-400 a:active,
@@ -3424,7 +3424,7 @@
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-500 a:visited,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-500 a:link,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .background-gray-500 a:visited {
-  color: #305478;
+  color: #014771;
 }
 .background-gray-500 a:hover,
 .background-gray-500 a:active,
@@ -3702,7 +3702,7 @@
 }
 .text-color-black a:link,
 .text-color-black a:visited {
-  color: #467aaf;
+  color: #0277BD;
 }
 .text-color-black a:hover,
 .text-color-black a:active,

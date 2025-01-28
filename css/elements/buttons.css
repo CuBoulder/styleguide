@@ -5,7 +5,7 @@ a.button,
 .button,
 a.button-ghost,
 .button-ghost {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -40,7 +40,7 @@ a.button-ghost.button-block,
 .button.button-blue,
 .buttons-color-blue a,
 .buttons-color-blue a.button {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -60,7 +60,7 @@ a.button-ghost.button-block,
   transition: -webkit-box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease;
   transition: -moz-box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease;
   transition: box-shadow 0.5s ease, background-color 0.5s ease, color 0.5s ease;
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
 }
 .button.button-blue:hover, .button.button-blue:focus,
@@ -68,8 +68,8 @@ a.button-ghost.button-block,
 .buttons-color-blue a:focus,
 .buttons-color-blue a.button:hover,
 .buttons-color-blue a.button:focus {
-  background-color: #4272a4;
-  background-color: #3f6e9e;
+  background-color: #026dae;
+  background-color: #026baa;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -85,7 +85,7 @@ a.button-ghost.button-block,
 .button.button-white,
 .buttons-color-white a,
 .buttons-color-white a.button {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -131,7 +131,7 @@ a.button-ghost.button-block,
 .button.button-gray-dark,
 .buttons-color-gray-dark a,
 .buttons-color-gray-dark a.button {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -176,7 +176,7 @@ a.button-ghost.button-block,
 .button.button-gray-light,
 .buttons-color-gray-light a,
 .buttons-color-gray-light a.button {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -221,7 +221,7 @@ a.button-ghost.button-block,
 .button.button-gray,
 .buttons-color-gray a,
 .buttons-color-gray a.button {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -266,7 +266,7 @@ a.button-ghost.button-block,
 .button.button-black,
 .buttons-color-black a,
 .buttons-color-black a.button {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -312,7 +312,7 @@ a.button-ghost.button-block,
 .button.button-gold,
 .buttons-color-gold a,
 .buttons-color-gold a.button {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -436,15 +436,15 @@ a.button-ghost.button-block,
 }
 
 .buttongroup-color-blue {
-  background-color: #37618b;
+  background-color: #01578b;
 }
 .buttongroup-color-blue a.button {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
 }
 .buttongroup-color-blue a.button:hover, .buttongroup-color-blue a.button:focus {
-  background-color: #4272a4;
-  background-color: #3f6e9e;
+  background-color: #026dae;
+  background-color: #026baa;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -579,7 +579,7 @@ a.button-ghost.button-block,
 }
 
 .cu-give-button-dark {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -616,7 +616,7 @@ a.button-ghost.button-block,
 }
 
 .cu-give-button-light {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -653,7 +653,7 @@ a.button-ghost.button-block,
 }
 
 .cu-give-button-gold {
-  background-color: #467aaf;
+  background-color: #0277BD;
   color: #fff !important;
   display: inline-block;
   padding: 5px 10px;
@@ -705,12 +705,12 @@ a.button-ghost {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
-  color: #467aaf !important;
-  border: 1px solid #467aaf;
+  color: #0277BD !important;
+  border: 1px solid #0277BD;
 }
 .button-ghost:hover,
 a.button-ghost:hover {
-  background: #467aaf;
+  background: #0277BD;
   color: #fff !important;
 }
 
@@ -739,16 +739,16 @@ a.button-ghost.button-ghost-blue,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .buttons-color-outline-blue a.button,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .buttons-color-outline-blue a.button,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .buttons-color-outline-blue a.button {
-  border: 1px solid #467aaf;
+  border: 1px solid #0277BD;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
-  color: #467aaf !important;
+  color: #0277BD !important;
   text-decoration: none;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.15);
 }
 .button-ghost.button-ghost-blue:hover, .button-ghost.button-ghost-blue:active, .button-ghost.button-ghost-blue:focus, *[class*=background-] .button-ghost.button-ghost-blue:hover, *[class*=background-] .button-ghost.button-ghost-blue:active, *[class*=background-] .button-ghost.button-ghost-blue:focus, *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:hover, *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:active, *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:focus, *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:hover, *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:active, *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:focus, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:hover, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:active, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:focus, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:hover, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:active, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:focus, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:hover, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:active, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:focus, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:hover, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:active, *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .button-ghost.button-ghost-blue:focus,
 a.button-ghost.button-ghost-blue:hover,
@@ -823,7 +823,7 @@ a.button-ghost.button-ghost-blue:focus,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .buttons-color-outline-blue a.button:hover,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .buttons-color-outline-blue a.button:active,
 *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] *[class*=background-] .buttons-color-outline-blue a.button:focus {
-  background: #467aaf;
+  background: #0277BD;
   color: #fff !important;
 }
 
